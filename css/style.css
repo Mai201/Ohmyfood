@@ -1,6 +1,107 @@
-/* test couleur */
+/*couleurs*/
 html {
-  background-color: red;
+  background-color: black;
+}
+
+body {
+  font-family: "monospace" "Times New Roman";
+  color: #f39c12;
+}
+
+header {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+}
+
+header {
+  background-color: #009688;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+}
+
+footer {
+  background-color: #009688;
+}
+
+footer {
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.menus {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.menus {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  background-color: white;
+}
+
+.ligne1, .ligne2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.menu1, .menu2, .menu3, .menu4 {
+  background-color: lightgrey;
+  border: solid;
+  height: 300px;
+  width: 40%;
+  text-align: center;
+}
+
+.prochainement {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #009688;
+  width: 200px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media all and (max-width: 1024px) {
+  header, .menus, footer {
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

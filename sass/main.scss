@@ -1,6 +1,8 @@
-/* test couleur */
-
-html {
-    background-color:red;
-}
-
+@import "./utils/variables";
+@import "./base/html";
+@import "./base/body";
+@import "./utils/mixins";
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./pages/menus-page1";
+@import "./utils/media";

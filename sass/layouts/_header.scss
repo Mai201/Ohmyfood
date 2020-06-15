@@ -1,0 +1,15 @@
+header 
+{
+    @include blocpage;
+}
+
+header {
+    background-color: $color-primary;
+}
+
+h1
+{
+    width:100%;
+    text-align: center;
+}
+
