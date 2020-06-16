@@ -3,17 +3,9 @@
     @include blocpage;
 }
 
-
-
-h2 {
-    width:100%;
-    text-align: center;
-}
-
-
 .menus{
-    padding-top: 20px; 
-    padding-bottom: 20px;   
+    padding-top: 50px; 
+    padding-bottom: 50px;   
     flex-direction: column;
     background-color:$color-bg-menus;
 }
@@ -22,16 +14,15 @@ h2 {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 
 .menu1, .menu2, .menu3, .menu4
 {
     background-color: lightgrey;
-    border: solid;
-    height: 300px;
-    width: 40%;
+    height: 680px;
+    width: 400px;
     text-align: center;
 }
 
@@ -39,6 +30,7 @@ h2 {
 {
     display:flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .btn 
 {
@@ -48,6 +40,8 @@ h2 {
 }
 
 h2 {
+    width:100%;
+    text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
 }

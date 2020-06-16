@@ -1,6 +1,32 @@
 @media all and (max-width:1024px) {
-    header, .menus, footer {
+    header, .menus {
         width:auto;
     }
 }
 
+
+@media all and (max-width:900px) {
+    
+    .ligne1, .ligne2 {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    
+    .menu1, .menu2, .menu3, .menu4
+    {
+        margin-bottom: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+    
+    footer 
+    {
+        justify-content:center;
+    }
+    
+    h3 
+    {
+        font-size:smaller;
+    }
+}
