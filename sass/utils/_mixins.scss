@@ -3,3 +3,12 @@
     width: 100%;
     display: flex;
 }
+
+@mixin typomenu
+{
+    height: 680px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 $color-txt;
+
+}

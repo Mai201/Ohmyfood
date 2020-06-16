@@ -17,13 +17,36 @@
     padding-bottom: 50px;
 }
 
+.menu1 {
+    @include typomenu
+}
 
-.menu1, .menu2, .menu3, .menu4
-{
-    background-color: lightgrey;
-    height: 680px;
-    width: 400px;
-    text-align: center;
+.titre1 {
+
+}
+
+.menu2 {
+    @include typomenu
+}
+
+.titre2 {
+    
+}
+
+.menu3 {
+    @include typomenu
+}
+
+.titre3 {
+
+}
+
+.menu4 {
+    @include typomenu
+}
+
+.titre4 {
+
 }
 
 .prochainement

@@ -57,11 +57,32 @@ h3 {
   padding-bottom: 50px;
 }
 
-.menu1, .menu2, .menu3, .menu4 {
-  background-color: lightgrey;
+.menu1 {
   height: 680px;
   width: 400px;
   text-align: center;
+  box-shadow: 0 0 10px 0 #FBC02D;
+}
+
+.menu2 {
+  height: 680px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 #FBC02D;
+}
+
+.menu3 {
+  height: 680px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 #FBC02D;
+}
+
+.menu4 {
+  height: 680px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 #FBC02D;
 }
 
 .prochainement {
