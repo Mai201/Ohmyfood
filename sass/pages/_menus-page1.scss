@@ -7,7 +7,6 @@
     padding-top: 50px; 
     padding-bottom: 50px;   
     flex-direction: column;
-    background-color:$color-bg-menus;
 }
 
 .ligne1, .ligne2 {
@@ -18,35 +17,66 @@
 }
 
 .menu1 {
-    @include typomenu
+    @include typomenu;
+    background-color:hsla(0, 58%, 82%, 0.932);
+
+    p 
+    {
+       font-size: xx-large;
+       color: black;
+    }
 }
 
-.titre1 {
+.img1 
+    {
+       margin-top: 300px;
+    }
 
+.titre1
+{
+    font-style: italic;
+    color:black;
 }
 
 .menu2 {
-    @include typomenu
+    @include typomenu;
+    p 
+    {
+       font-size: xx-large;
+    }
 }
 
 .titre2 {
-    
+    margin-top: 300px;
 }
 
 .menu3 {
-    @include typomenu
+    @include typomenu;
+    p 
+    {
+       font-size: xx-large;
+       color:$color-menu3;
+    }
 }
 
 .titre3 {
-
+    margin-top: 300px;
+    color:$color-menu3;
 }
 
 .menu4 {
-    @include typomenu
+    @include typomenu;
+    p 
+    {
+       font-size: xx-large;
+       color: $color-menu4;
+    }
 }
 
 .titre4 {
-
+    margin-top: 300px;
+    color: $color-menu4;
+    
 }
 
 .prochainement

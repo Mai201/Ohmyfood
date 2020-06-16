@@ -1,4 +1,5 @@
 /*couleurs*/
+/* $color-menu2: */
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #FBC02D;
@@ -47,7 +48,6 @@ h3 {
   padding-top: 50px;
   padding-bottom: 50px;
   flex-direction: column;
-  background-color: white;
 }
 
 .ligne1, .ligne2 {
@@ -62,6 +62,20 @@ h3 {
   width: 400px;
   text-align: center;
   box-shadow: 0 0 10px 0 #FBC02D;
+  background-color: rgba(236, 182, 182, 0.932);
+}
+.menu1 p {
+  font-size: xx-large;
+  color: black;
+}
+
+.img1 {
+  margin-top: 300px;
+}
+
+.titre1 {
+  font-style: italic;
+  color: black;
 }
 
 .menu2 {
@@ -70,6 +84,13 @@ h3 {
   text-align: center;
   box-shadow: 0 0 10px 0 #FBC02D;
 }
+.menu2 p {
+  font-size: xx-large;
+}
+
+.titre2 {
+  margin-top: 300px;
+}
 
 .menu3 {
   height: 680px;
@@ -77,12 +98,30 @@ h3 {
   text-align: center;
   box-shadow: 0 0 10px 0 #FBC02D;
 }
+.menu3 p {
+  font-size: xx-large;
+  color: #4299eb;
+}
+
+.titre3 {
+  margin-top: 300px;
+  color: #4299eb;
+}
 
 .menu4 {
   height: 680px;
   width: 400px;
   text-align: center;
   box-shadow: 0 0 10px 0 #FBC02D;
+}
+.menu4 p {
+  font-size: xx-large;
+  color: #21c42e;
+}
+
+.titre4 {
+  margin-top: 300px;
+  color: #21c42e;
 }
 
 .prochainement {
