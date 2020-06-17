@@ -14,16 +14,7 @@
     &__sectioncard{
         @include typomenu;
         margin: 0 auto;
-    }
-
-    &__pagination{
-        margin: 0 auto;
-        margin-top:25px;
-        margin-bottom: 100px;
-        background-color: $color-primary;
-        width: 100px;
-        text-align:center;
-        border-radius: 10px;
+        margin-bottom:100px;
     }
 }
 
