@@ -18,7 +18,7 @@
                 color: black;
                 }
                 .img1 {
-                margin-top: $margin-top-menu;
+                margin-top: 150px;
                 }
                 .title-m1{
                 font-style: italic;
@@ -70,17 +70,17 @@
     display:flex;
     justify-content: center;
     margin-bottom: 50px;
-}
-.btn 
-{
+    .btn 
+    {
     background-color: $color-primary;
     width: 200px;
     border-radius: 10px;
-}
+    }
 
-h2 {
-    width:100%;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    h2 {
+        width:100%;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }

@@ -11,3 +11,11 @@
     text-align: center;
     box-shadow: 0 0 10px 0 $color-txt;
 }
+
+@mixin small-typomenu
+{
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
