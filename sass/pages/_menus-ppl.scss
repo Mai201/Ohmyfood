@@ -23,13 +23,14 @@
                 background-color:$bgcolor-menu1;
                 p {
                 font-size: xx-large;
+                font-family: 'Sriracha-Regular';
                 color: black;
                 }
                 .img1 {
                 margin-top: 150px;
                 }
                 .title-m1{
-                font-style: italic;
+                font-family:'Pacifico-Regular';
                 color:black;
                 }
             }
@@ -40,6 +41,7 @@
                 p 
                 {
                    font-size: xx-large;
+                   font-family: 'DMSerifDisplay-Regular';
                    color:$color-menu2;
                 }
                 .title-m2 {
@@ -52,10 +54,12 @@
                 background-color: $bgcolor-menu3;
                 p 
                 {
+                    font-family:'Kalam-Regular';
                    font-size: xx-large;
                    color:$color-menu3;
                 }
                 .title-m3 {
+                    font-family:'DancingScript-VariableFont_wght';
                     margin-top: $margin-top-menu;
                     color:$color-menu3;
                 }
@@ -65,10 +69,12 @@
                 @include typomenu;
                 p 
                 {
+                    font-family:'Kalam-Regular';
                    font-size: xx-large;
                    color: $color-menu4;
                 }
                 .title-m4 {
+                    font-family:'KaushanScript-Regular';
                     margin-top: $margin-top-menu;
                     color: $color-menu4;
                 }

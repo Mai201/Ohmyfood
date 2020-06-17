@@ -5,6 +5,38 @@ body {
   margin: 0;
 }
 
+/* ajout de polices*/
+@font-face {
+  /* Ajout police Pacifico pour title-m1 */
+  font-family: "Pacifico-Regular";
+  src: url("Pacifico-Regular.ttf") format("truetype");
+}
+@font-face {
+  /* Ajout police Sriracha pour p "menu" du menu 1 */
+  font-family: "Sriracha-Regular";
+  src: url("Sriracha-Regular.ttf") format("truetype");
+}
+/* ajouter police title-m2 */
+@font-face {
+  /* Ajout police Display pour p "menu" du menu 2 */
+  font-family: "DMSerifDisplay-Regular";
+  src: url("DMSerifDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  /* Ajout police Dancing pour title-m3 */
+  font-family: "DancingScript-VariableFont_wght";
+  src: url("DancingScript-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  /* Ajout police Kalam pour p "menu" des menus 3 et 4  */
+  font-family: "Kalam-Regular";
+  src: url("Kalam-Regular.ttf") format("truetype");
+}
+@font-face {
+  /* Ajout police pour title-m4  */
+  font-family: "KaushanScript-Regular";
+  src: url("KaushanScript-Regular.ttf") format("truetype");
+}
 header {
   width: 100%;
   display: flex;
@@ -65,13 +97,14 @@ h3 {
 }
 .menus__ligne-menu1 p {
   font-size: xx-large;
+  font-family: "Sriracha-Regular";
   color: black;
 }
 .menus__ligne-menu1 .img1 {
   margin-top: 150px;
 }
 .menus__ligne-menu1 .title-m1 {
-  font-style: italic;
+  font-family: "Pacifico-Regular";
   color: black;
 }
 .menus__ligne-menu2 {
@@ -83,6 +116,7 @@ h3 {
 }
 .menus__ligne-menu2 p {
   font-size: xx-large;
+  font-family: "DMSerifDisplay-Regular";
   color: rgba(163, 81, 40, 0.932);
 }
 .menus__ligne-menu2 .title-m2 {
@@ -96,10 +130,12 @@ h3 {
   background-color: rgba(240, 236, 236, 0.603);
 }
 .menus__ligne-menu3 p {
+  font-family: "Kalam-Regular";
   font-size: xx-large;
   color: #4299eb;
 }
 .menus__ligne-menu3 .title-m3 {
+  font-family: "DancingScript-VariableFont_wght";
   margin-top: 200px;
   color: #4299eb;
 }
@@ -110,10 +146,12 @@ h3 {
   box-shadow: 0 0 10px 0 lightgrey;
 }
 .menus__ligne-menu4 p {
+  font-family: "Kalam-Regular";
   font-size: xx-large;
   color: #21c42e;
 }
 .menus__ligne-menu4 .title-m4 {
+  font-family: "KaushanScript-Regular";
   margin-top: 200px;
   color: #21c42e;
 }
