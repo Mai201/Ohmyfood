@@ -18,7 +18,7 @@
         
         &-menu1{
                 @include typomenu;
-                background-color:hsla(0, 58%, 82%, 0.932);
+                background-color:$bgcolor-menu1;
                 p {
                 font-size: xx-large;
                 color: black;
@@ -34,9 +34,11 @@
 
             &-menu2{
                 @include typomenu;
+                background-color: $bgcolor-menu2;
                 p 
                 {
                    font-size: xx-large;
+                   color:$color-menu2;
                 }
                 .title-m2 {
                     margin-top: $margin-top-menu;
@@ -45,6 +47,7 @@
 
             &-menu3 {
                 @include typomenu;
+                background-color: $bgcolor-menu3;
                 p 
                 {
                    font-size: xx-large;
