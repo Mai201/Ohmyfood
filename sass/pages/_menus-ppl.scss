@@ -1,6 +1,9 @@
 .menus 
     {
     @include blocpage;
+    width:1024px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 50px; 
     padding-bottom: 50px;   
     flex-direction: column;

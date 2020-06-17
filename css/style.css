@@ -39,6 +39,9 @@ h3 {
 .menus {
   width: 100%;
   display: flex;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 50px;
   padding-bottom: 50px;
   flex-direction: column;
@@ -146,15 +149,7 @@ h3 {
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
-}
-.menu-ps__pagination {
-  margin: 0 auto;
-  margin-top: 25px;
   margin-bottom: 100px;
-  background-color: #009688;
-  width: 100px;
-  text-align: center;
-  border-radius: 10px;
 }
 
 @media all and (max-width: 1024px) {
