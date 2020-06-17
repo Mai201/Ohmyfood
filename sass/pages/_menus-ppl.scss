@@ -1,0 +1,86 @@
+.menus 
+    {
+    @include blocpage;
+    padding-top: 50px; 
+    padding-bottom: 50px;   
+    flex-direction: column;
+        &__ligne
+        {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 50px;
+            &-menu1{
+                @include typomenu;
+                background-color:hsla(0, 58%, 82%, 0.932);
+                p {
+                font-size: xx-large;
+                color: black;
+                }
+                .img1 {
+                margin-top: $margin-top-menu;
+                }
+                .title-m1{
+                font-style: italic;
+                color:black;
+                }
+            }
+
+            &-menu2{
+                @include typomenu;
+                p 
+                {
+                   font-size: xx-large;
+                }
+                .title-m2 {
+                    margin-top: $margin-top-menu;
+                }
+            }
+
+            &-menu3 {
+                @include typomenu;
+                p 
+                {
+                   font-size: xx-large;
+                   color:$color-menu3;
+                }
+                .title-m3 {
+                    margin-top: $margin-top-menu;
+                    color:$color-menu3;
+                }
+            }
+
+            &-menu4 {
+                @include typomenu;
+                p 
+                {
+                   font-size: xx-large;
+                   color: $color-menu4;
+                }
+                .title-m4 {
+                    margin-top: $margin-top-menu;
+                    color: $color-menu4;
+                }
+            }
+        }
+    }
+
+.prochainement
+{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btn 
+{
+    background-color: $color-primary;
+    width: 200px;
+    border-radius: 10px;
+}
+
+h2 {
+    width:100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

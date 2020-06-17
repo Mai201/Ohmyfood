@@ -2,12 +2,11 @@ header
 {
     @include blocpage;
     background-color: $color-primary;
+    
+    h1
+    {
+        width: 100%;
+        text-align: center;
+        font-size: 42px;
+    }
 }
-
-h1
-{
-    width:100%;
-    text-align: center;
-    font-size: 42px;
-}
-
