@@ -44,6 +44,9 @@ h3 {
   padding-bottom: 50px;
   flex-direction: column;
 }
+.menus a.navmenu {
+  text-decoration: none;
+}
 .menus__ligne {
   display: flex;
   flex-direction: row;
@@ -124,6 +127,32 @@ h3 {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.menu-ps {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.menu-ps__title-s {
+  text-align: center;
+  color: black;
+}
+.menu-ps__sectioncard {
+  height: 500px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 #FBC02D;
+  margin: 0 auto;
+}
+.menu-ps__pagination {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  background-color: #009688;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 @media all and (max-width: 1024px) {
