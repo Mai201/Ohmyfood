@@ -2,23 +2,58 @@
 
 // commun à toutes les pages secondaires
 
-.menu-ps{
+.menu-ps
+{
     @include blocpage;
     flex-direction: column;
 
     &__title-s{
         text-align:center;
         color:black;
+        font-weight: bold;
     }
 
     &__sectioncard{
-        @include typomenu;
+        @include typomenu-ps;
         margin: 0 auto;
         margin-bottom:100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        h4
+        {
+        
+        }
+
+        p {text-align: left;
+            span
+            {
+            font-weight: bold;
+            }
+        }
+        /* propre à menu1 */ 
+        .img1
+        {
+            margin-top: 50px;
+        }
+        .title-m1, .endtitle-m1
+        {
+            font-family:'Pacifico-Regular';
+            color:black;
+        }
+        
+        &-m1
+        {
+            font-family: 'Sriracha-Regular';
+            color: black;
+        }
+
+        /* propre à menu2 */ 
+        /* propre à menu3 */ 
+        /* propre à menu4 */ 
+        
     }
 }
 
-// propre à chaque menu
 
 
 

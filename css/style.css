@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*couleurs*/
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -181,14 +182,38 @@ h3 {
 .menu-ps__title-s {
   text-align: center;
   color: black;
+  font-weight: bold;
 }
 .menu-ps__sectioncard {
-  height: 500px;
-  width: 300px;
+  height: 1000px;
+  width: 700px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
   margin-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* propre à menu1 */
+  /* propre à menu2 */
+  /* propre à menu3 */
+  /* propre à menu4 */
+}
+.menu-ps__sectioncard p {
+  text-align: left;
+}
+.menu-ps__sectioncard p span {
+  font-weight: bold;
+}
+.menu-ps__sectioncard .img1 {
+  margin-top: 50px;
+}
+.menu-ps__sectioncard .title-m1, .menu-ps__sectioncard .endtitle-m1 {
+  font-family: "Pacifico-Regular";
+  color: black;
+}
+.menu-ps__sectioncard-m1 {
+  font-family: "Sriracha-Regular";
+  color: black;
 }
 
 @media all and (max-width: 1024px) {

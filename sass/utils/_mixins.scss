@@ -12,6 +12,14 @@
     box-shadow: 0 0 10px 0 lightgrey;
 }
 
+@mixin typomenu-ps
+{
+    height: 1000px;
+    width: 700px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 lightgrey;
+}
+
 @mixin small-typomenu
 {
     margin-bottom: 50px;
