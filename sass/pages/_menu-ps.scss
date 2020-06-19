@@ -77,11 +77,6 @@
         color: $color-menu2;
         background-color: $bgcolor-menu2;
 
-        h4
-        {
-        
-        }
-
         p {text-align: left;
             span
             {
@@ -91,7 +86,7 @@
         
         .title-m2
         {
-            /* ajouter police title M2 */ 
+            font-family: 'Redressed-Regular';
             /* ajouter variation de couleurs */ 
             @include typo-titre-ps-m1-m2;
             color:$color-menu2;

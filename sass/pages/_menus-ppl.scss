@@ -24,14 +24,16 @@
                 background-color:$bgcolor-menu1;
                 p {
                 font-size: xx-large;
+                margin-top: 10px;
                 font-family: 'Sriracha-Regular';
                 color: black;
                 }
                 .img1 {
-                margin-top: 150px;
+                margin-top: 115px;
                 }
                 .title-m1{
                 font-family:'Pacifico-Regular';
+                font-size:26px;
                 color:black;
                 }
             }
@@ -47,6 +49,9 @@
                    color:$color-menu2;
                 }
                 .title-m2 {
+                    font-family: 'Redressed-Regular';
+                    font-size:26px;
+                    /* ajouter variation couleur */ 
                     margin-top: $margin-top-menu;
                 }
             }
@@ -62,6 +67,7 @@
                 }
                 .title-m3 {
                     font-family:'DancingScript-VariableFont_wght';
+                    font-size:26px;
                     margin-top: $margin-top-menu;
                     color:$color-menu3;
                 }
@@ -71,7 +77,7 @@
                 @include typomenu-pp;
                 p 
                 {
-                    font-family:'Kalam-Regular';
+                   font-family:'Kalam-Regular';
                    font-size: xx-large;
                    color: $color-menu4;
                 }
@@ -79,6 +85,7 @@
                     font-family:'KaushanScript-Regular';
                     margin-top: $margin-top-menu;
                     color: $color-menu4;
+                    font-size:26px;
                 }
             }
         }
