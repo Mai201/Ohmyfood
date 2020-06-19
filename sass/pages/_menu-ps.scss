@@ -12,13 +12,19 @@
         color:black;
         font-weight: bold;
     }
-
-    &__sectioncard{
+    
+    /* propre à menu1 */ 
+    &__sectioncard-m1
+    {
         @include typomenu-ps;
         margin: 0 auto;
         margin-bottom:100px;
         padding-left: 50px;
         padding-right: 50px;
+        font-family: 'Sriracha-Regular';
+        color: black;
+        background-color: $bgcolor-menu1;
+
         h4
         {
         
@@ -30,31 +36,116 @@
             font-weight: bold;
             }
         }
-        /* propre à menu1 */ 
+        
         .img1
         {
+            height:80px;
             margin-top: 50px;
+            margin-bottom: -80px;
         }
         .title-m1, .endtitle-m1
         {
             font-family:'Pacifico-Regular';
+            @include typo-titre-ps-m1-m2;
             color:black;
         }
-        
-        &-m1
+
+    }
+
+    /* propre à menu2 */ 
+    &__sectioncard-m2
+    {
+        @include typomenu-ps;
+        margin: 0 auto;
+        margin-bottom:100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family:'DMSerifDisplay-Regular';
+        color: $color-menu2;
+        background-color: $bgcolor-menu2;
+
+        h4
         {
-            font-family: 'Sriracha-Regular';
-            color: black;
+        
         }
 
-        /* propre à menu2 */ 
-
-        /* propre à menu3 */ 
-
-        /* propre à menu4 */ 
+        p {text-align: left;
+            span
+            {
+            font-weight: bold;
+            }
+        }
         
-        
+        .title-m2
+        {
+            /* ajouter police title M2 */ 
+            /* ajouter variation de couleurs */ 
+            @include typo-titre-ps-m1-m2;
+            color:$color-menu2;
+        }    
     }
+    
+    /* propre à menu3 */ 
+    &__sectioncard-m3
+    {
+        @include typomenu-ps;
+        margin: 0 auto;
+        margin-bottom:100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family:'Kalam-Regular';
+        color: $color-menu3;
+        background-color: $bgcolor-menu3;
+
+        h4
+        {
+        
+        }
+
+        p {text-align: left;
+            span
+            {
+            font-weight: bold;
+            }
+        }
+        
+        .title-m3
+        {
+            font-family:'DancingScript-VariableFont_wght';
+            @include typo-titre-ps-m3-m4;
+            color:$color-menu3;
+        }   
+    }
+    
+    /* propre à menu4 */ 
+    &__sectioncard-m4{
+        @include typomenu-ps;
+        margin: 0 auto;
+        margin-bottom:100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family:'Kalam-Regular';
+        color: $color-menu4;
+
+        h4
+        {
+        
+        }
+
+        p {text-align: left;
+            span
+            {
+            font-weight: bold;
+            }
+        }
+
+        .title-m4
+        {
+            font-family:'KaushanScript-Regular';
+            @include typo-titre-ps-m3-m4;
+            color:$color-menu4;
+        }    
+    } 
 }
 
 
