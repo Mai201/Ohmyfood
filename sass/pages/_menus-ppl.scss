@@ -20,7 +20,7 @@
         padding-bottom: 50px;
         
         &-menu1{
-                @include typomenu;
+                @include typomenu-pp;
                 background-color:$bgcolor-menu1;
                 p {
                 font-size: xx-large;
@@ -36,8 +36,9 @@
                 }
             }
 
+        
             &-menu2{
-                @include typomenu;
+                @include typomenu-pp;
                 background-color: $bgcolor-menu2;
                 p 
                 {
@@ -51,7 +52,7 @@
             }
 
             &-menu3 {
-                @include typomenu;
+                @include typomenu-pp;
                 background-color: $bgcolor-menu3;
                 p 
                 {
@@ -67,7 +68,7 @@
             }
 
             &-menu4 {
-                @include typomenu;
+                @include typomenu-pp;
                 p 
                 {
                     font-family:'Kalam-Regular';
