@@ -38,6 +38,9 @@ body {
   font-family: "KaushanScript-Regular";
   src: url("KaushanScript-Regular.ttf") format("truetype");
 }
+/* page principale */
+/* page principale pour petits écrans */
+/* page secondaire */
 header {
   width: 100%;
   display: flex;
@@ -178,6 +181,9 @@ h3 {
 .menu-ps {
   width: 100%;
   display: flex;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
   flex-direction: column;
   /* propre à menu1 */
   /* propre à menu2 */
@@ -190,8 +196,8 @@ h3 {
   font-weight: bold;
 }
 .menu-ps__sectioncard-m1 {
-  height: 900px;
-  width: 600px;
+  height: 1100px;
+  width: 500px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
@@ -221,8 +227,8 @@ h3 {
   color: black;
 }
 .menu-ps__sectioncard-m2 {
-  height: 900px;
-  width: 600px;
+  height: 1100px;
+  width: 500px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
@@ -248,8 +254,8 @@ h3 {
   color: rgba(163, 81, 40, 0.932);
 }
 .menu-ps__sectioncard-m3 {
-  height: 900px;
-  width: 600px;
+  height: 1100px;
+  width: 500px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
@@ -274,8 +280,8 @@ h3 {
   color: #4299eb;
 }
 .menu-ps__sectioncard-m4 {
-  height: 900px;
-  width: 600px;
+  height: 1100px;
+  width: 500px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
@@ -300,7 +306,7 @@ h3 {
 }
 
 @media all and (max-width: 1024px) {
-  header, .menus {
+  .menus, .menus-ps {
     width: auto;
   }
 }

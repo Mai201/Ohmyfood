@@ -1,9 +1,8 @@
 @media all and (max-width:1024px) {
-    header, .menus {
+    .menus, .menus-ps {
         width:auto;
     }
 }
-
 
 @media all and (max-width:900px) {
     
@@ -13,22 +12,22 @@
         padding-bottom: 0px;
         &-menu1
         {
-            @include small-typomenu  
+            @include small-typomenu;
         }
 
         &-menu2
         {
-            @include small-typomenu  
+            @include small-typomenu  ;
         }
 
         &-menu3
         {
-            @include small-typomenu  
+            @include small-typomenu  ;
         }
 
         &-menu4
         {
-            @include small-typomenu  
+            @include small-typomenu  ;
         }
     }
 }
