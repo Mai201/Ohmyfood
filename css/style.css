@@ -17,7 +17,11 @@ body {
   font-family: "Sriracha-Regular";
   src: url("Sriracha-Regular.ttf") format("truetype");
 }
-/* trouver et ajouter police title-m2 */
+@font-face {
+  /* Ajout police Redressed pour title-m2 */
+  font-family: "Redressed-Regular";
+  src: url("Redressed-Regular.ttf") format("truetype");
+}
 @font-face {
   /* Ajout police Display pour p "menu" du menu 2 */
   font-family: "DMSerifDisplay-Regular";
@@ -93,7 +97,7 @@ h3 {
   padding-bottom: 50px;
 }
 .menus__ligne-menu1 {
-  height: 500px;
+  height: 450px;
   width: 300px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
@@ -101,18 +105,20 @@ h3 {
 }
 .menus__ligne-menu1 p {
   font-size: xx-large;
+  margin-top: 10px;
   font-family: "Sriracha-Regular";
   color: black;
 }
 .menus__ligne-menu1 .img1 {
-  margin-top: 150px;
+  margin-top: 115px;
 }
 .menus__ligne-menu1 .title-m1 {
   font-family: "Pacifico-Regular";
+  font-size: 26px;
   color: black;
 }
 .menus__ligne-menu2 {
-  height: 500px;
+  height: 450px;
   width: 300px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
@@ -124,10 +130,13 @@ h3 {
   color: rgba(163, 81, 40, 0.932);
 }
 .menus__ligne-menu2 .title-m2 {
-  margin-top: 200px;
+  font-family: "Redressed-Regular";
+  font-size: 26px;
+  /* ajouter variation couleur */
+  margin-top: 180px;
 }
 .menus__ligne-menu3 {
-  height: 500px;
+  height: 450px;
   width: 300px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
@@ -140,11 +149,12 @@ h3 {
 }
 .menus__ligne-menu3 .title-m3 {
   font-family: "DancingScript-VariableFont_wght";
-  margin-top: 200px;
+  font-size: 26px;
+  margin-top: 180px;
   color: #4299eb;
 }
 .menus__ligne-menu4 {
-  height: 500px;
+  height: 450px;
   width: 300px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
@@ -156,8 +166,9 @@ h3 {
 }
 .menus__ligne-menu4 .title-m4 {
   font-family: "KaushanScript-Regular";
-  margin-top: 200px;
+  margin-top: 180px;
   color: #21c42e;
+  font-size: 26px;
 }
 
 .prochainement {
@@ -254,7 +265,7 @@ h3 {
   font-weight: bold;
 }
 .menu-ps__sectioncard-m2 .title-m2 {
-  /* ajouter police title M2 */
+  font-family: "Redressed-Regular";
   /* ajouter variation de couleurs */
   font-size: 40px;
   margin-top: 60px;

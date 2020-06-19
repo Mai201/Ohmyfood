@@ -21,7 +21,10 @@ body
     src: url('Sriracha-Regular.ttf') format('truetype');
 }
 
-/* trouver et ajouter police title-m2 */
+@font-face { /* Ajout police Redressed pour title-m2 */
+    font-family: 'Redressed-Regular';
+    src:url('Redressed-Regular.ttf') format('truetype');
+}
 
 @font-face { /* Ajout police Display pour p "menu" du menu 2 */
     font-family:'DMSerifDisplay-Regular';
