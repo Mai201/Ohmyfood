@@ -181,7 +181,6 @@ h3 {
 .menu-ps {
   width: 100%;
   display: flex;
-  width: 1024px;
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
@@ -196,8 +195,8 @@ h3 {
   font-weight: bold;
 }
 .menu-ps__sectioncard-m1 {
-  height: 1100px;
-  width: 500px;
+  height: 100%;
+  width: 50%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
@@ -215,7 +214,7 @@ h3 {
   font-weight: bold;
 }
 .menu-ps__sectioncard-m1 .img1 {
-  height: 80px;
+  height: 70px;
   margin-top: 50px;
   margin-bottom: -80px;
 }
@@ -226,9 +225,18 @@ h3 {
   margin-bottom: 60px;
   color: black;
 }
+.menu-ps__sectioncard-m1 .endtitle-m1 {
+  font-size: 25px;
+}
+.menu-ps__sectioncard-m1 .img2 {
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: -15px;
+  margin-right: 15px;
+}
 .menu-ps__sectioncard-m2 {
-  height: 1100px;
-  width: 500px;
+  height: 100%;
+  width: 50%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
@@ -254,8 +262,8 @@ h3 {
   color: rgba(163, 81, 40, 0.932);
 }
 .menu-ps__sectioncard-m3 {
-  height: 1100px;
-  width: 500px;
+  height: 100%;
+  width: 50%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
@@ -280,8 +288,8 @@ h3 {
   color: #4299eb;
 }
 .menu-ps__sectioncard-m4 {
-  height: 1100px;
-  width: 500px;
+  height: 100%;
+  width: 50%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
