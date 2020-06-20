@@ -1,5 +1,5 @@
 .menus 
-    {
+{
     @include blocpage;
     width:1024px;
     margin-left: auto;
@@ -7,9 +7,14 @@
     padding-top: 50px; 
     padding-bottom: 50px;   
     flex-direction: column;
+    
     a.navmenu
     {
     text-decoration:none;
+        // &:hover
+        // {
+        //  mettre en place effet fondu des liens de navig  
+        // }
     }    
         &__ligne
         {
@@ -18,7 +23,8 @@
         justify-content: space-around;
         padding-bottom: 50px;
         
-        &-menu1{
+            &-menu1
+            {
                 @include typomenu-pp;
                 background-color:$bgcolor-menu1;
                 p {
@@ -37,58 +43,60 @@
                 }
             }
 
-        
-            &-menu2{
+            &-menu2
+            {
                 @include typomenu-pp;
                 background-color: $bgcolor-menu2;
                 p 
                 {
-                   font-size: xx-large;
-                   font-family: 'DMSerifDisplay-Regular';
-                   color:$color-menu2;
+                font-size: xx-large;
+                font-family: 'DMSerifDisplay-Regular';
+                color:$color-menu2;
                 }
                 .title-m2 {
-                    font-family: 'Redressed-Regular';
-                    font-size:26px;
-                    /* ajouter variation couleur */ 
-                    margin-top: $margin-top-menu;
+                font-family: 'Redressed-Regular';
+                font-size:26px;
+                /* ajouter variation couleur */ 
+                margin-top: $margin-top-menu;
                 }
             }
 
-            &-menu3 {
+            &-menu3 
+            {
                 @include typomenu-pp;
                 background-color: $bgcolor-menu3;
                 p 
                 {
-                    font-family:'Kalam-Regular';
-                   font-size: xx-large;
-                   color:$color-menu3;
+                font-family:'Kalam-Regular';
+                font-size: xx-large;
+                color:$color-menu3;
                 }
                 .title-m3 {
-                    font-family:'DancingScript-VariableFont_wght';
-                    font-size:26px;
-                    margin-top: $margin-top-menu;
-                    color:$color-menu3;
+                font-family:'DancingScript-VariableFont_wght';
+                font-size:26px;
+                margin-top: $margin-top-menu;
+                color:$color-menu3;
                 }
             }
 
-            &-menu4 {
+            &-menu4 
+            {
                 @include typomenu-pp;
                 p 
                 {
-                   font-family:'Kalam-Regular';
-                   font-size: xx-large;
-                   color: $color-menu4;
+                font-family:'Kalam-Regular';
+                font-size: xx-large;
+                color: $color-menu4;
                 }
                 .title-m4 {
-                    font-family:'KaushanScript-Regular';
-                    margin-top: $margin-top-menu;
-                    color: $color-menu4;
-                    font-size:26px;
+                font-family:'KaushanScript-Regular';
+                margin-top: $margin-top-menu;
+                color: $color-menu4;
+                font-size:26px;
                 }
             }
         }
-    }
+}
 
 .prochainement
 {
