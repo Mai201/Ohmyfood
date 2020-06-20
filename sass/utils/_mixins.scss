@@ -30,6 +30,17 @@
     text-align: center;
     box-shadow: 0 0 10px 0 lightgrey;
 }
+
+@mixin margin-menu-ps
+{
+    margin: 0 auto;
+    margin-bottom:100px;
+}
+@mixin padding-menu-ps
+{
+    padding-left: 25px;
+    padding-right: 25px;
+}
 @mixin typo-titre-ps-m1-m2
 {
     font-size: 40px;

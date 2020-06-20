@@ -20,10 +20,8 @@
     &__sectioncard-m1
     {
         @include typomenu-ps;
-        margin: 0 auto;
-        margin-bottom:100px;
-        padding-left: 50px;
-        padding-right: 50px;
+        @include margin-menu-ps;
+        @include padding-menu-ps;
         font-family: 'Sriracha-Regular';
         color: black;
         background-color: $bgcolor-menu1;
@@ -70,10 +68,8 @@
     &__sectioncard-m2
     {
         @include typomenu-ps;
-        margin: 0 auto;
-        margin-bottom:100px;
-        padding-left: 50px;
-        padding-right: 50px;
+        @include margin-menu-ps;
+        @include padding-menu-ps;
         font-family:'DMSerifDisplay-Regular';
         color: $color-menu2;
         background-color: $bgcolor-menu2;
@@ -99,10 +95,8 @@
     &__sectioncard-m3
     {
         @include typomenu-ps;
-        margin: 0 auto;
-        margin-bottom:100px;
-        padding-left: 50px;
-        padding-right: 50px;
+        @include margin-menu-ps;
+        @include padding-menu-ps;
         font-family:'Kalam-Regular';
         color: $color-menu3;
         background-color: $bgcolor-menu3;
@@ -130,10 +124,8 @@
     /* propre à menu4 */ 
     &__sectioncard-m4{
         @include typomenu-ps;
-        margin: 0 auto;
-        margin-bottom:100px;
-        padding-left: 50px;
-        padding-right: 50px;
+        @include margin-menu-ps;
+        @include padding-menu-ps;
         font-family:'Kalam-Regular';
         color: $color-menu4;
 
