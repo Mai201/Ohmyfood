@@ -203,6 +203,7 @@ h3 {
   text-align: center;
   color: black;
   font-weight: bold;
+  font-size: 30px;
 }
 .menu-ps__sectioncard-m1 {
   height: 100%;
@@ -222,6 +223,7 @@ h3 {
 }
 .menu-ps__sectioncard-m1 p span {
   font-weight: bold;
+  float: right;
 }
 .menu-ps__sectioncard-m1 .img1 {
   height: 70px;
@@ -262,6 +264,7 @@ h3 {
 }
 .menu-ps__sectioncard-m2 p span {
   font-weight: bold;
+  float: right;
 }
 .menu-ps__sectioncard-m2 .title-m2 {
   font-family: "Redressed-Regular";
@@ -289,6 +292,7 @@ h3 {
 }
 .menu-ps__sectioncard-m3 p span {
   font-weight: bold;
+  float: right;
 }
 .menu-ps__sectioncard-m3 .title-m3 {
   font-family: "DancingScript-VariableFont_wght";
@@ -314,6 +318,7 @@ h3 {
 }
 .menu-ps__sectioncard-m4 p span {
   font-weight: bold;
+  float: right;
 }
 .menu-ps__sectioncard-m4 .title-m4 {
   font-family: "KaushanScript-Regular";

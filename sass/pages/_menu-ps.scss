@@ -13,6 +13,7 @@
         text-align:center;
         color:black;
         font-weight: bold;
+        font-size: 30px;
     }
     
     /* propre à menu1 */ 
@@ -27,15 +28,15 @@
         color: black;
         background-color: $bgcolor-menu1;
 
-        h4
-        {
-        
-        }
+        // h4
+        // {
+        // }
 
         p {text-align: left;
             span
             {
             font-weight: bold;
+            float: right;
             }
         }
         
@@ -81,6 +82,7 @@
             span
             {
             font-weight: bold;
+            float: right;
             }
         }
         
@@ -105,15 +107,15 @@
         color: $color-menu3;
         background-color: $bgcolor-menu3;
 
-        h4
-        {
-        
-        }
+        // h4
+        // {
+        // }
 
         p {text-align: left;
             span
             {
             font-weight: bold;
+            float: right;
             }
         }
         
@@ -135,15 +137,15 @@
         font-family:'Kalam-Regular';
         color: $color-menu4;
 
-        h4
-        {
-        
-        }
+        // h4
+        // {
+        // }
 
         p {text-align: left;
             span
             {
             font-weight: bold;
+            float: right;
             }
         }
 
