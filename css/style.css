@@ -76,12 +76,25 @@ h3 {
 a.mLeg, a.contact {
   text-decoration: none;
   color: #FBC02D;
-}
-a.mLeg:hover, a.contact:hover {
-  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation: shake 1000ms cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite alternate-reverse;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
+}
+a.mLeg--1, a.contact--1 {
+  animation-delay: 200ms;
+}
+a.mLeg--2, a.contact--2 {
+  animation-delay: 400ms;
+}
+a.mLeg--3, a.contact--3 {
+  animation-delay: 600ms;
+}
+a.mLeg--4, a.contact--4 {
+  animation-delay: 800ms;
+}
+a.mLeg--5, a.contact--5 {
+  animation-delay: 1000ms;
 }
 @keyframes shake {
   10%, 90% {
