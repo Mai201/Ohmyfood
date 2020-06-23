@@ -122,9 +122,6 @@ a.mLeg--5, a.contact--5 {
   padding-bottom: 50px;
   flex-direction: column;
 }
-.menus a.navmenu {
-  text-decoration: none;
-}
 .menus__ligne {
   display: flex;
   flex-direction: row;
@@ -138,16 +135,22 @@ a.mLeg--5, a.contact--5 {
   box-shadow: 0 0 10px 0 lightgrey;
   background-color: rgba(230, 188, 167, 0.74);
 }
-.menus__ligne-menu1 p {
+.menus__ligne-menu1 a.navmenu {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 115px;
+  transition: 500ms ease-in-out;
+}
+.menus__ligne-menu1 a.navmenu:hover {
+  transform: scale(1.15);
+}
+.menus__ligne-menu1 a.navmenu p {
   font-size: xx-large;
   margin-top: 10px;
   font-family: "Sriracha-Regular";
   color: black;
 }
-.menus__ligne-menu1 .img1 {
-  margin-top: 115px;
-}
-.menus__ligne-menu1 .title-m1 {
+.menus__ligne-menu1 a.navmenu .title-m1 {
   font-family: "Pacifico-Regular";
   font-size: 26px;
   color: black;
@@ -159,16 +162,24 @@ a.mLeg--5, a.contact--5 {
   box-shadow: 0 0 10px 0 lightgrey;
   background-color: rgba(245, 209, 223, 0.733);
 }
-.menus__ligne-menu2 p {
+.menus__ligne-menu2 a.navmenu {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 180px;
+  transition: 500ms ease-in-out;
+}
+.menus__ligne-menu2 a.navmenu:hover {
+  transform: scale(1.15);
+}
+.menus__ligne-menu2 a.navmenu p {
   font-size: xx-large;
   font-family: "DMSerifDisplay-Regular";
   color: rgba(163, 81, 40, 0.932);
 }
-.menus__ligne-menu2 .title-m2 {
+.menus__ligne-menu2 a.navmenu .title-m2 {
   font-family: "Redressed-Regular";
   font-size: 26px;
   /* ajouter variation couleur */
-  margin-top: 180px;
 }
 .menus__ligne-menu3 {
   height: 450px;
@@ -177,15 +188,23 @@ a.mLeg--5, a.contact--5 {
   box-shadow: 0 0 10px 0 lightgrey;
   background-color: rgba(240, 236, 236, 0.603);
 }
-.menus__ligne-menu3 p {
+.menus__ligne-menu3 a.navmenu {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 180px;
+  transition: 500ms ease-in-out;
+}
+.menus__ligne-menu3 a.navmenu:hover {
+  transform: scale(1.15);
+}
+.menus__ligne-menu3 a.navmenu p {
   font-family: "Kalam-Regular";
   font-size: xx-large;
   color: #4299eb;
 }
-.menus__ligne-menu3 .title-m3 {
+.menus__ligne-menu3 a.navmenu .title-m3 {
   font-family: "DancingScript-VariableFont_wght";
   font-size: 26px;
-  margin-top: 180px;
   color: #4299eb;
 }
 .menus__ligne-menu4 {
@@ -194,14 +213,22 @@ a.mLeg--5, a.contact--5 {
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
 }
-.menus__ligne-menu4 p {
+.menus__ligne-menu4 a.navmenu {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 180px;
+  transition: 500ms ease-in-out;
+}
+.menus__ligne-menu4 a.navmenu:hover {
+  transform: scale(1.15);
+}
+.menus__ligne-menu4 a.navmenu p {
   font-family: "Kalam-Regular";
   font-size: xx-large;
   color: #21c42e;
 }
-.menus__ligne-menu4 .title-m4 {
+.menus__ligne-menu4 a.navmenu .title-m4 {
   font-family: "KaushanScript-Regular";
-  margin-top: 180px;
   color: #21c42e;
   font-size: 26px;
 }
@@ -213,12 +240,28 @@ a.mLeg--5, a.contact--5 {
 }
 .prochainement .btn {
   background-color: #009688;
-  width: 200px;
+  width: 220px;
   border-radius: 10px;
 }
+.prochainement .btn-load:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+  animation: ellipsis steps(4, end) 900ms infinite;
+  content: "…";
+  width: 0px;
+}
+@keyframes ellipsis {
+  to {
+    width: 30px;
+  }
+}
 .prochainement h2 {
-  width: 100%;
+  display: flex;
   text-align: center;
+  padding-left: 12px;
+  padding-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
