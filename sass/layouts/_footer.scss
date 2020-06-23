@@ -16,17 +16,21 @@ h3 {
     margin-right:7px;
 }
 
+$anim-dur:1000ms;
+$anim-delay:$anim-dur /5;
+
 a.mLeg, a.contact
 {
     text-decoration:none;
     color: $color-txt;
-    
-    &:hover 
-    {
-        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-        transform: translate3d(0, 0, 0);
-        backface-visibility: hidden;
-        perspective: 1000px;
+    animation: shake $anim-dur cubic-bezier(.36,.07,.19,.97) both infinite alternate-reverse;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    @for $i from 1 through 5 {
+      &--#{$i} {
+        animation-delay: $anim-delay *$i;
+      }
     }
    
    @keyframes shake 
