@@ -340,8 +340,9 @@ a.mLeg--5, a.contact--5 {
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
   margin-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-family: "DMSerifDisplay-Regular";
-  color: #c67412 #a56799 #6e4ccc;
   background-color: #fff5fe;
 }
 .menu-ps__sectioncard-m2 p {
@@ -351,19 +352,44 @@ a.mLeg--5, a.contact--5 {
   font-weight: bold;
   float: right;
 }
+.menu-ps__sectioncard-m2 p.m2A {
+  color: #c67412;
+}
+.menu-ps__sectioncard-m2 p.m2B {
+  color: #a56799;
+}
+.menu-ps__sectioncard-m2 p.m2C {
+  color: #6e4ccc;
+}
 .menu-ps__sectioncard-m2 .title-m2 {
   font-family: "Redressed-Regular";
-  /* ajouter variation de couleurs */
   font-size: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
   color: #c67412 #a56799 #6e4ccc;
 }
-.menu-ps__sectioncard-subtitlesm2 {
-  background: linear-gradient(to top, #c67412 #a56799 #6e4ccc 0%, #c67412 #a56799 #6e4ccc 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+.menu-ps__sectioncard-subtitlem2A {
+  color: #c67412;
+  background: linear-gradient(to top, #c67412 0%, #c67412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-ps__sectioncard-subtitlesm2:hover {
+.menu-ps__sectioncard-subtitlem2A:hover {
+  background-size: 100% 100%;
+}
+.menu-ps__sectioncard-subtitlem2B {
+  color: #a56799;
+  background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlem2B:hover {
+  background-size: 100% 100%;
+}
+.menu-ps__sectioncard-subtitlem2C {
+  color: #6e4ccc;
+  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlem2C:hover {
   background-size: 100% 100%;
 }
 .menu-ps__sectioncard-m3 {
@@ -373,11 +399,13 @@ a.mLeg--5, a.contact--5 {
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
   margin-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-family: "Kalam-Regular";
-  color: #0228dd #0670f3 #229df9;
   background-color: #edefef;
 }
 .menu-ps__sectioncard-m3 p {
+  color: black;
   text-align: left;
 }
 .menu-ps__sectioncard-m3 p span {
@@ -391,11 +419,28 @@ a.mLeg--5, a.contact--5 {
   margin-bottom: 60px;
   color: #0228dd #0670f3 #229df9;
 }
-.menu-ps__sectioncard-subtitlesm3 {
-  background: linear-gradient(to top, #0228dd #0670f3 #229df9 0%, #0228dd #0670f3 #229df9 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+.menu-ps__sectioncard-subtitlem3A {
+  color: black;
+  background: linear-gradient(to top, #0228dd 0%, #0228dd 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-ps__sectioncard-subtitlesm3:hover {
+.menu-ps__sectioncard-subtitlem3A:hover {
+  background-size: 100% 100%;
+}
+.menu-ps__sectioncard-subtitlem3B {
+  color: black;
+  background: linear-gradient(to top, #0670f3 0%, #0670f3 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlem3B:hover {
+  background-size: 100% 100%;
+}
+.menu-ps__sectioncard-subtitlem3C {
+  color: black;
+  background: linear-gradient(to top, #229df9 0%, #229df9 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlem3C:hover {
   background-size: 100% 100%;
 }
 .menu-ps__sectioncard-m4 {
@@ -405,10 +450,13 @@ a.mLeg--5, a.contact--5 {
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
   margin-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-family: "Kalam-Regular";
   color: #21c42e;
 }
 .menu-ps__sectioncard-m4 p {
+  color: black;
   text-align: left;
 }
 .menu-ps__sectioncard-m4 p span {
@@ -423,6 +471,7 @@ a.mLeg--5, a.contact--5 {
   color: #21c42e;
 }
 .menu-ps__sectioncard-subtitlesm4 {
+  color: black;
   background: linear-gradient(to top, #21c42e 0%, #21c42e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }

@@ -80,30 +80,66 @@
     &__sectioncard-m2
     {
         @include typomenu-ps;
+        padding-left: 5%;
+        padding-right: 5%;
         font-family:'DMSerifDisplay-Regular';
-        color: $color-menu2;
         background-color: $bgcolor-menu2;
 
-        p {text-align: left;
+        p 
+        {
+            text-align: left;
             span
             {
             font-weight: bold;
             float: right;
+            }
+            &.m2A{
+                color:$color-menu2A;
+            }
+            &.m2B{
+                color:$color-menu2B;
+            }
+            &.m2C{
+                color:$color-menu2C;
             }
         }
         
         .title-m2
         {
             font-family: 'Redressed-Regular';
-            /* ajouter variation de couleurs */ 
             @include typo-titre-ps-m1-m2;
             color:$color-menu2;
         }    
     }
 
-    &__sectioncard-subtitlesm2
+    &__sectioncard-subtitlem2A
     {
-        background: linear-gradient(to top, $color-menu2 0%, $color-menu2 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        color:$color-menu2A;
+        background: linear-gradient(to top, $color-menu2A 0%, $color-menu2A 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+          
+        &:hover 
+        {
+            background-size: 100% 100%;
+        }
+    }
+
+    &__sectioncard-subtitlem2B
+    {
+        color:$color-menu2B;
+        background: linear-gradient(to top, $color-menu2B 0%, $color-menu2B 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+          
+        &:hover 
+        {
+            background-size: 100% 100%;
+        }
+    }
+
+    &__sectioncard-subtitlem2C
+    {
+        color:$color-menu2C;
+        background: linear-gradient(to top, $color-menu2C 0%, $color-menu2C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
         transition: background-size .5s;
           
         &:hover 
@@ -115,11 +151,15 @@
     &__sectioncard-m3
     {
         @include typomenu-ps;
+        padding-left: 5%;
+        padding-right: 5%;
         font-family:'Kalam-Regular';
-        color: $color-menu3;
         background-color: $bgcolor-menu3;
 
-        p {text-align: left;
+        p 
+        {
+            color:black;
+            text-align: left;
             span
             {
             font-weight: bold;
@@ -135,9 +175,10 @@
         }   
     }
 
-    &__sectioncard-subtitlesm3
+    &__sectioncard-subtitlem3A
     {
-        background: linear-gradient(to top, $color-menu3 0%, $color-menu3 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        color:black;
+        background: linear-gradient(to top, $color-menu3A 0%, $color-menu3A 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
         transition: background-size .5s;
           
         &:hover 
@@ -146,12 +187,42 @@
         }
     }
 
-    &__sectioncard-m4{
+    &__sectioncard-subtitlem3B
+    {
+        color:black;
+        background: linear-gradient(to top, $color-menu3B 0%, $color-menu3B 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+          
+        &:hover 
+        {
+            background-size: 100% 100%;
+        }
+    }
+
+    &__sectioncard-subtitlem3C
+    {
+        color:black;
+        background: linear-gradient(to top, $color-menu3C 0%, $color-menu3C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+          
+        &:hover 
+        {
+            background-size: 100% 100%;
+        }
+    }
+
+    &__sectioncard-m4
+    {
         @include typomenu-ps;
+        padding-left: 5%;
+        padding-right: 5%;
         font-family:'Kalam-Regular';
         color: $color-menu4;
 
-        p {text-align: left;
+        p 
+        {
+            color:black;
+            text-align: left;
             span
             {
             font-weight: bold;
@@ -169,6 +240,7 @@
 
     &__sectioncard-subtitlesm4
     {
+        color:black;
         background: linear-gradient(to top, $color-menu4 0%, $color-menu4 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
         transition: background-size .5s;
           
