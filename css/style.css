@@ -44,6 +44,7 @@ body {
 /* page principale */
 /* page principale pour petits écrans */
 /* page secondaire */
+/*pages secondaires pour petits écrans */
 header {
   width: 100%;
   display: flex;
@@ -132,7 +133,7 @@ a.mLeg--5, a.contact--5 {
   width: 300px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
-  background-color: rgba(230, 188, 167, 0.74);
+  background-color: #fcdfdb;
 }
 .menus__ligne-menu1 a.navmenu {
   display: inline-block;
@@ -147,19 +148,19 @@ a.mLeg--5, a.contact--5 {
   font-size: xx-large;
   margin-top: 10px;
   font-family: "Sriracha-Regular";
-  color: black;
+  color: #3d1319;
 }
 .menus__ligne-menu1 a.navmenu .title-m1 {
   font-family: "Pacifico-Regular";
   font-size: 26px;
-  color: black;
+  color: #3d1319;
 }
 .menus__ligne-menu2 {
   height: 450px;
   width: 300px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
-  background-color: rgba(245, 209, 223, 0.733);
+  background-color: #fff5fe;
 }
 .menus__ligne-menu2 a.navmenu {
   display: inline-block;
@@ -173,19 +174,19 @@ a.mLeg--5, a.contact--5 {
 .menus__ligne-menu2 a.navmenu p {
   font-size: xx-large;
   font-family: "DMSerifDisplay-Regular";
-  color: rgba(163, 81, 40, 0.932);
+  color: #c67412;
 }
 .menus__ligne-menu2 a.navmenu .title-m2 {
   font-family: "Redressed-Regular";
   font-size: 26px;
-  /* ajouter variation couleur */
+  color: #c67412 #a56799 #6e4ccc;
 }
 .menus__ligne-menu3 {
   height: 450px;
   width: 300px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
-  background-color: rgba(240, 236, 236, 0.603);
+  background-color: #edefef;
 }
 .menus__ligne-menu3 a.navmenu {
   display: inline-block;
@@ -199,12 +200,12 @@ a.mLeg--5, a.contact--5 {
 .menus__ligne-menu3 a.navmenu p {
   font-family: "Kalam-Regular";
   font-size: xx-large;
-  color: #4299eb;
+  color: #229df9;
 }
 .menus__ligne-menu3 a.navmenu .title-m3 {
   font-family: "DancingScript-VariableFont_wght";
   font-size: 26px;
-  color: #4299eb;
+  color: #0228dd #0670f3 #229df9;
 }
 .menus__ligne-menu4 {
   height: 450px;
@@ -246,7 +247,6 @@ a.mLeg--5, a.contact--5 {
   overflow: hidden;
   display: inline-block;
   vertical-align: bottom;
-  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
   animation: ellipsis steps(4, end) 900ms infinite;
   content: "…";
   width: 0px;
@@ -272,10 +272,6 @@ a.mLeg--5, a.contact--5 {
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
-  /* propre à menu1 */
-  /* propre à menu2 */
-  /* propre à menu3 */
-  /* propre à menu4 */
 }
 .menu-ps__title-s {
   text-align: center;
@@ -285,16 +281,16 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m1 {
   height: 100%;
-  width: 60%;
+  width: 42%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
   margin-bottom: 100px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-family: "Sriracha-Regular";
-  color: black;
-  background-color: rgba(230, 188, 167, 0.74);
+  color: #3d1319;
+  background-color: #fcdfdb;
 }
 .menu-ps__sectioncard-m1 p {
   text-align: left;
@@ -313,7 +309,7 @@ a.mLeg--5, a.contact--5 {
   font-size: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
-  color: black;
+  color: #3d1319;
 }
 .menu-ps__sectioncard-m1 .endtitle-m1 {
   font-size: 25px;
@@ -325,24 +321,28 @@ a.mLeg--5, a.contact--5 {
   margin-right: 15px;
 }
 .menu-ps__sectioncard-subtitlesm1 {
-  background: linear-gradient(to top, black 0%, black 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  background: linear-gradient(to top, #3d1319 0%, #3d1319 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
 .menu-ps__sectioncard-subtitlesm1:hover {
   background-size: 100% 100%;
 }
+.menu-ps__sectioncard-subtitlesm1 .img1g {
+  margin-bottom: -20px;
+  font-size: 16px;
+  width: 42%;
+}
 .menu-ps__sectioncard-m2 {
   height: 100%;
-  width: 60%;
+  width: 42%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
   margin-bottom: 100px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-family: "DMSerifDisplay-Regular";
-  color: rgba(163, 81, 40, 0.932);
-  background-color: rgba(245, 209, 223, 0.733);
+  background-color: #fff5fe;
 }
 .menu-ps__sectioncard-m2 p {
   text-align: left;
@@ -351,35 +351,60 @@ a.mLeg--5, a.contact--5 {
   font-weight: bold;
   float: right;
 }
+.menu-ps__sectioncard-m2 p.m2A {
+  color: #c67412;
+}
+.menu-ps__sectioncard-m2 p.m2B {
+  color: #a56799;
+}
+.menu-ps__sectioncard-m2 p.m2C {
+  color: #6e4ccc;
+}
 .menu-ps__sectioncard-m2 .title-m2 {
   font-family: "Redressed-Regular";
-  /* ajouter variation de couleurs */
   font-size: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
-  color: rgba(163, 81, 40, 0.932);
+  color: #c67412 #a56799 #6e4ccc;
 }
-.menu-ps__sectioncard-subtitlesm2 {
-  background: linear-gradient(to top, rgba(163, 81, 40, 0.932) 0%, rgba(163, 81, 40, 0.932) 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+.menu-ps__sectioncard-subtitlem2A {
+  color: #c67412;
+  background: linear-gradient(to top, #c67412 0%, #c67412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-ps__sectioncard-subtitlesm2:hover {
+.menu-ps__sectioncard-subtitlem2A:hover {
+  background-size: 100% 100%;
+}
+.menu-ps__sectioncard-subtitlem2B {
+  color: #a56799;
+  background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlem2B:hover {
+  background-size: 100% 100%;
+}
+.menu-ps__sectioncard-subtitlem2C {
+  color: #6e4ccc;
+  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlem2C:hover {
   background-size: 100% 100%;
 }
 .menu-ps__sectioncard-m3 {
   height: 100%;
-  width: 60%;
+  width: 42%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
   margin-bottom: 100px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-family: "Kalam-Regular";
-  color: #4299eb;
-  background-color: rgba(240, 236, 236, 0.603);
+  background-color: #edefef;
 }
 .menu-ps__sectioncard-m3 p {
+  color: black;
   text-align: left;
 }
 .menu-ps__sectioncard-m3 p span {
@@ -391,28 +416,46 @@ a.mLeg--5, a.contact--5 {
   font-size: 60px;
   margin-top: 60px;
   margin-bottom: 60px;
-  color: #4299eb;
+  color: #0228dd #0670f3 #229df9;
 }
-.menu-ps__sectioncard-subtitlesm3 {
-  background: linear-gradient(to top, #4299eb 0%, #4299eb 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+.menu-ps__sectioncard-subtitlem3A {
+  color: black;
+  background: linear-gradient(to top, #0228dd 0%, #0228dd 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-ps__sectioncard-subtitlesm3:hover {
+.menu-ps__sectioncard-subtitlem3A:hover {
+  background-size: 100% 100%;
+}
+.menu-ps__sectioncard-subtitlem3B {
+  color: black;
+  background: linear-gradient(to top, #0670f3 0%, #0670f3 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlem3B:hover {
+  background-size: 100% 100%;
+}
+.menu-ps__sectioncard-subtitlem3C {
+  color: black;
+  background: linear-gradient(to top, #229df9 0%, #229df9 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlem3C:hover {
   background-size: 100% 100%;
 }
 .menu-ps__sectioncard-m4 {
   height: 100%;
-  width: 60%;
+  width: 42%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin: 0 auto;
   margin-bottom: 100px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-family: "Kalam-Regular";
   color: #21c42e;
 }
 .menu-ps__sectioncard-m4 p {
+  color: black;
   text-align: left;
 }
 .menu-ps__sectioncard-m4 p span {
@@ -427,6 +470,7 @@ a.mLeg--5, a.contact--5 {
   color: #21c42e;
 }
 .menu-ps__sectioncard-subtitlesm4 {
+  color: black;
   background: linear-gradient(to top, #21c42e 0%, #21c42e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
@@ -467,6 +511,35 @@ a.mLeg--5, a.contact--5 {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
+  }
+
+  .menus-ps__sectioncard-m1 {
+    background-color: red;
+    text-align: center;
+    box-shadow: 0 0 10px 0 lightgrey;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .menus-ps__sectioncard-m2 {
+    background-color: red;
+    text-align: center;
+    box-shadow: 0 0 10px 0 lightgrey;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .menus-ps__sectioncard-m3 {
+    background-color: red;
+    text-align: center;
+    box-shadow: 0 0 10px 0 lightgrey;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .menus-ps__sectioncard-m4 {
+    background-color: red;
+    text-align: center;
+    box-shadow: 0 0 10px 0 lightgrey;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
