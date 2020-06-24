@@ -26,19 +26,23 @@
                     text-decoration:none;
                     margin-top: 115px;
                     transition: 500ms ease-in-out;
-
+                    
                     &:hover
                     {
-                    transform: scale(1.15);
+                        transform: scale(1.15);
                     }
                     
                     p {
-                    font-size: xx-large;
-                    margin-top: 10px;
-                    font-family: 'Sriracha-Regular';
-                    color: $color-menu1;
+                        font-size: xx-large;
+                        margin-top: 10px;
+                        font-family: 'Sriracha-Regular';
+                        color: $color-menu1;
                     }
                     
+                    .img1
+                    {
+                        height:70px;
+                    }
                     .title-m1{
                     font-family:'Pacifico-Regular';
                     font-size:26px;
