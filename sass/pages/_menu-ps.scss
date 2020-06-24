@@ -1,7 +1,5 @@
 /* pages secondaires */ 
 
-// commun à toutes les pages secondaires
-
 .menu-ps
 {
     @include blocpage;
@@ -9,26 +7,26 @@
     margin-right:auto;
     flex-direction: column;
 
-    &__title-s{
+    &__title-s
+    {
         text-align:center;
         color:black;
         font-weight: bold;
         font-size: 30px;
     }
     
-    /* propre à menu1 */ 
     &__sectioncard-m1
     {
         @include typomenu-ps;
-        margin: 0 auto;
-        margin-bottom:100px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 5%;
+        padding-right: 5%; 
         font-family: 'Sriracha-Regular';
-        color: black;
+        color: $color-menu1;
         background-color: $bgcolor-menu1;
-
-        p {text-align: left;
+        
+        p 
+        {
+            text-align: left;
             span
             {
             font-weight: bold;
@@ -46,7 +44,7 @@
         {
             font-family:'Pacifico-Regular';
             @include typo-titre-ps-m1-m2;
-            color:black;
+            color:$color-menu1;
         }
 
         .endtitle-m1{
@@ -59,27 +57,29 @@
             margin-bottom: -15px;
             margin-right:15px;
         }
-
     }
 
     &__sectioncard-subtitlesm1
     {
-        background: linear-gradient(to top, black 0%, black 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        background: linear-gradient(to top, $color-menu1 0%, $color-menu1 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
         transition: background-size .5s;
-          
-        &:hover {
+        
+        &:hover 
+        {
             background-size: 100% 100%;
-          }
+        }
+
+        .img1g
+        {
+            margin-bottom: -20px;
+            font-size: 16px;
+            width: 42%;
+        }
     }
 
-    /* propre à menu2 */ 
     &__sectioncard-m2
     {
         @include typomenu-ps;
-        margin: 0 auto;
-        margin-bottom:100px;
-        padding-left: 50px;
-        padding-right: 50px;
         font-family:'DMSerifDisplay-Regular';
         color: $color-menu2;
         background-color: $bgcolor-menu2;
@@ -106,26 +106,18 @@
         background: linear-gradient(to top, $color-menu2 0%, $color-menu2 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
         transition: background-size .5s;
           
-        &:hover {
+        &:hover 
+        {
             background-size: 100% 100%;
-          }
+        }
     }
     
-    /* propre à menu3 */ 
     &__sectioncard-m3
     {
         @include typomenu-ps;
-        margin: 0 auto;
-        margin-bottom:100px;
-        padding-left: 50px;
-        padding-right: 50px;
         font-family:'Kalam-Regular';
         color: $color-menu3;
         background-color: $bgcolor-menu3;
-
-        // h4
-        // {
-        // }
 
         p {text-align: left;
             span
@@ -148,18 +140,14 @@
         background: linear-gradient(to top, $color-menu3 0%, $color-menu3 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
         transition: background-size .5s;
           
-        &:hover {
+        &:hover 
+        {
             background-size: 100% 100%;
-          }
+        }
     }
-    
-    /* propre à menu4 */ 
+
     &__sectioncard-m4{
         @include typomenu-ps;
-        margin: 0 auto;
-        margin-bottom:100px;
-        padding-left: 50px;
-        padding-right: 50px;
         font-family:'Kalam-Regular';
         color: $color-menu4;
 
@@ -184,9 +172,10 @@
         background: linear-gradient(to top, $color-menu4 0%, $color-menu4 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
         transition: background-size .5s;
           
-        &:hover {
+        &:hover 
+        {
             background-size: 100% 100%;
-          }
+        }
     }
 }
 

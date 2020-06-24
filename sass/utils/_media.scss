@@ -4,7 +4,8 @@
     }
 }
 
-@media all and (max-width:900px) {
+@media all and (max-width:900px) 
+{
     
     .menus__ligne 
     {
@@ -28,6 +29,29 @@
         &-menu4
         {
             @include small-typomenu;
+        }
+    }
+
+    .menus-ps 
+    {
+        &__sectioncard-m1
+        {
+            @include small-typomenu-ps;
+        }
+
+        &__sectioncard-m2
+        {
+            @include small-typomenu-ps;
+        }
+
+        &__sectioncard-m3
+        {
+            @include small-typomenu-ps;
+        }
+
+        &__sectioncard-m4
+        {
+            @include small-typomenu-ps;
         }
     }
 }

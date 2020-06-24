@@ -5,7 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px; 
-    padding-bottom: 50px;   
+    padding-bottom: 50px;
     flex-direction: column;
     
     
@@ -22,10 +22,10 @@
                 background-color:$bgcolor-menu1;
                 a.navmenu
                 {
-                display: inline-block;
-                text-decoration:none;
-                margin-top: 115px;
-                transition: 500ms ease-in-out;
+                    display: inline-block;
+                    text-decoration:none;
+                    margin-top: 115px;
+                    transition: 500ms ease-in-out;
 
                     &:hover
                     {
@@ -36,13 +36,13 @@
                     font-size: xx-large;
                     margin-top: 10px;
                     font-family: 'Sriracha-Regular';
-                    color: black;
+                    color: $color-menu1;
                     }
                     
                     .title-m1{
                     font-family:'Pacifico-Regular';
                     font-size:26px;
-                    color:black;
+                    color:$color-menu1;
                     }
                 }       
             }
@@ -53,10 +53,10 @@
                 background-color: $bgcolor-menu2;
                 a.navmenu
                 {
-                display: inline-block;
-                text-decoration:none;
-                margin-top: $margin-top-menu;
-                transition: 500ms ease-in-out;
+                    display: inline-block;
+                    text-decoration:none;
+                    margin-top: $margin-top-menu;
+                    transition: 500ms ease-in-out;
                 
                     &:hover
                     {
@@ -66,12 +66,12 @@
                     {
                     font-size: xx-large;
                     font-family: 'DMSerifDisplay-Regular';
-                    color:$color-menu2;
+                    color:$color-menu2A;
                     }
                     .title-m2 {
                     font-family: 'Redressed-Regular';
                     font-size:26px;
-                    /* ajouter variation couleur */ 
+                    color:$color-menu2; 
                     }
                 }
             }
@@ -82,54 +82,54 @@
                 background-color: $bgcolor-menu3;
                 a.navmenu
                 {
-                display: inline-block;
-                text-decoration:none;
-                margin-top: $margin-top-menu;
-                transition: 500ms ease-in-out;
+                    display: inline-block;
+                    text-decoration:none;
+                    margin-top: $margin-top-menu;
+                    transition: 500ms ease-in-out;
                 
                     &:hover
                     {
                     transform: scale(1.15);
                     }
-                p 
-                {
-                font-family:'Kalam-Regular';
-                font-size: xx-large;
-                color:$color-menu3;
+                    p 
+                    {
+                    font-family:'Kalam-Regular';
+                    font-size: xx-large;
+                    color:$color-menu3C;
+                    }
+                    .title-m3 {
+                    font-family:'DancingScript-VariableFont_wght';
+                    font-size:26px;
+                    color:$color-menu3;
+                    }
                 }
-                .title-m3 {
-                font-family:'DancingScript-VariableFont_wght';
-                font-size:26px;
-                color:$color-menu3;
-                }
-            }
             }
             &-menu4 
             {
                 @include typomenu-pp;
                 a.navmenu
                 {
-                display: inline-block;
-                text-decoration:none;
-                margin-top: $margin-top-menu;
-                transition: 500ms ease-in-out;
+                    display: inline-block;
+                    text-decoration:none;
+                    margin-top: $margin-top-menu;
+                    transition: 500ms ease-in-out;
                 
                     &:hover
                     {
                     transform: scale(1.15);
                     }
-                p 
-                {
-                font-family:'Kalam-Regular';
-                font-size: xx-large;
-                color: $color-menu4;
+                    p 
+                    {
+                    font-family:'Kalam-Regular';
+                    font-size: xx-large;
+                    color: $color-menu4;
+                    }
+                    .title-m4 {
+                    font-family:'KaushanScript-Regular';
+                    color: $color-menu4;
+                    font-size:26px;
+                    }
                 }
-                .title-m4 {
-                font-family:'KaushanScript-Regular';
-                color: $color-menu4;
-                font-size:26px;
-                }
-            }
             }
         }
     }
@@ -149,8 +149,7 @@
         {
             overflow: hidden;
             display: inline-block;
-            vertical-align: bottom;
-            -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+            vertical-align: bottom;    
             animation: ellipsis steps(4,end) 900ms infinite;
             content : "\002026";
             width: 0px;
@@ -162,7 +161,6 @@
             width: 30px;    
             }
         }
-
     }
 
     h2 
