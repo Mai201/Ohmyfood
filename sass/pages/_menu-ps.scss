@@ -26,10 +26,6 @@
         color: black;
         background-color: $bgcolor-menu1;
 
-        // h4
-        // {
-        // }
-
         p {text-align: left;
             span
             {
@@ -64,6 +60,16 @@
 
     }
 
+    &__sectioncard-subtitlesm1
+    {
+        background: linear-gradient(to top, black 0%, black 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+          
+        &:hover {
+            background-size: 100% 100%;
+          }
+    }
+
     /* propre à menu2 */ 
     &__sectioncard-m2
     {
@@ -89,6 +95,16 @@
             @include typo-titre-ps-m1-m2;
             color:$color-menu2;
         }    
+    }
+
+    &__sectioncard-subtitlesm2
+    {
+        background: linear-gradient(to top, $color-menu2 0%, $color-menu2 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+          
+        &:hover {
+            background-size: 100% 100%;
+          }
     }
     
     /* propre à menu3 */ 
@@ -120,6 +136,16 @@
             color:$color-menu3;
         }   
     }
+
+    &__sectioncard-subtitlesm3
+    {
+        background: linear-gradient(to top, $color-menu3 0%, $color-menu3 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+          
+        &:hover {
+            background-size: 100% 100%;
+          }
+    }
     
     /* propre à menu4 */ 
     &__sectioncard-m4{
@@ -128,10 +154,6 @@
         @include padding-menu-ps;
         font-family:'Kalam-Regular';
         color: $color-menu4;
-
-        // h4
-        // {
-        // }
 
         p {text-align: left;
             span
@@ -148,6 +170,16 @@
             color:$color-menu4;
         }    
     } 
+
+    &__sectioncard-subtitlesm4
+    {
+        background: linear-gradient(to top, $color-menu4 0%, $color-menu4 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+          
+        &:hover {
+            background-size: 100% 100%;
+          }
+    }
 }
 
 
