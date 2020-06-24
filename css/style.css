@@ -325,6 +325,13 @@ a.mLeg--5, a.contact--5 {
   margin-bottom: -15px;
   margin-right: 15px;
 }
+.menu-ps__sectioncard-subtitlesm1 {
+  background: linear-gradient(to top, black 0%, black 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlesm1:hover {
+  background-size: 100% 100%;
+}
 .menu-ps__sectioncard-m2 {
   height: 100%;
   width: 60%;
@@ -353,6 +360,13 @@ a.mLeg--5, a.contact--5 {
   margin-bottom: 60px;
   color: rgba(163, 81, 40, 0.932);
 }
+.menu-ps__sectioncard-subtitlesm2 {
+  background: linear-gradient(to top, rgba(163, 81, 40, 0.932) 0%, rgba(163, 81, 40, 0.932) 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlesm2:hover {
+  background-size: 100% 100%;
+}
 .menu-ps__sectioncard-m3 {
   height: 100%;
   width: 60%;
@@ -380,6 +394,13 @@ a.mLeg--5, a.contact--5 {
   margin-bottom: 60px;
   color: #4299eb;
 }
+.menu-ps__sectioncard-subtitlesm3 {
+  background: linear-gradient(to top, #4299eb 0%, #4299eb 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlesm3:hover {
+  background-size: 100% 100%;
+}
 .menu-ps__sectioncard-m4 {
   height: 100%;
   width: 60%;
@@ -405,6 +426,13 @@ a.mLeg--5, a.contact--5 {
   margin-top: 60px;
   margin-bottom: 60px;
   color: #21c42e;
+}
+.menu-ps__sectioncard-subtitlesm4 {
+  background: linear-gradient(to top, #21c42e 0%, #21c42e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-ps__sectioncard-subtitlesm4:hover {
+  background-size: 100% 100%;
 }
 
 @media all and (max-width: 1024px) {
