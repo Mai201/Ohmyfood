@@ -45,15 +45,17 @@ body {
 /* page principale */
 /* page principale pour petits écrans */
 /* page secondaire */
-/*pages secondaires pour petits écrans */
+/*pages secondaires pour petits écrans !! à modifier !! */
 header {
   width: 100%;
   display: flex;
   background-color: #009688;
 }
 header h1 {
-  width: 100%;
+  width: 1024px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 42px;
 }
 
@@ -118,7 +120,6 @@ a.mLeg--5, a.contact--5 {
 }
 
 .menus {
-  width: 100%;
   display: flex;
   width: 1024px;
   margin-left: auto;
@@ -275,7 +276,6 @@ a.mLeg--5, a.contact--5 {
 
 /* pages secondaires */
 .menu-ps {
-  width: 100%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -289,11 +289,14 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m1 {
   height: 100%;
-  width: 42%;
+  width: 550px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
   padding-left: 5%;
   padding-right: 5%;
   font-family: "Sriracha-Regular";
@@ -309,8 +312,10 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m1 .img1 {
   height: 70px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
-  margin-bottom: -80px;
+  margin-bottom: -60px;
 }
 .menu-ps__sectioncard-m1 .title-m1, .menu-ps__sectioncard-m1 .endtitle-m1 {
   font-family: "Pacifico-Regular";
@@ -341,10 +346,11 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m2 {
   height: 100%;
-  width: 42%;
+  width: 550px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 100px;
   padding-left: 5%;
   padding-right: 5%;
@@ -412,10 +418,11 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m3 {
   height: 100%;
-  width: 42%;
+  width: 550px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 100px;
   padding-left: 5%;
   padding-right: 5%;
@@ -475,10 +482,11 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m4 {
   height: 100%;
-  width: 42%;
+  width: 550px;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 100px;
   padding-left: 5%;
   padding-right: 5%;
@@ -514,7 +522,7 @@ a.mLeg--5, a.contact--5 {
 }
 
 @media all and (max-width: 1024px) {
-  .menus, .menus-ps {
+  .menus {
     width: auto;
   }
 }
@@ -546,35 +554,6 @@ a.mLeg--5, a.contact--5 {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
-  }
-
-  .menus-ps__sectioncard-m1 {
-    background-color: red;
-    text-align: center;
-    box-shadow: 0 0 10px 0 lightgrey;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  .menus-ps__sectioncard-m2 {
-    background-color: red;
-    text-align: center;
-    box-shadow: 0 0 10px 0 lightgrey;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  .menus-ps__sectioncard-m3 {
-    background-color: red;
-    text-align: center;
-    box-shadow: 0 0 10px 0 lightgrey;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  .menus-ps__sectioncard-m4 {
-    background-color: red;
-    text-align: center;
-    box-shadow: 0 0 10px 0 lightgrey;
-    padding-left: 25px;
-    padding-right: 25px;
   }
 }
 
