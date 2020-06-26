@@ -1,12 +1,17 @@
 header 
 {
-    @include blocpage;
+    // @include blocpage;
+    width: 100%;
+    display: flex;
     background-color: $color-primary;
+    
     
     h1
     {
-        width: 100%;
+        width: 1024px;
         text-align: center;
+        margin-left:auto;
+        margin-right:auto;
         font-size: 42px;
     }
 }

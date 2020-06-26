@@ -1,9 +1,3 @@
-@mixin blocpage 
-{
-    width: 100%;
-    display: flex;
-}
-
 /* page principale */ 
 @mixin typomenu-pp 
 {
@@ -26,10 +20,11 @@
 @mixin typomenu-ps
 {
     height: 100%;
-    width: 42%;
+    width: 550px;
     text-align: center;
     box-shadow: 0 0 10px 0 lightgrey;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom:100px;
 }
 
@@ -47,13 +42,11 @@
     margin-bottom: 60px;
 }
 
-/*pages secondaires pour petits écrans */
+/*pages secondaires pour petits écrans !! à modifier !! */
 
 @mixin small-typomenu-ps
 {
     background-color: red;
     text-align: center;
     box-shadow: 0 0 10px 0 lightgrey;
-    padding-left: 25px;
-    padding-right: 25px;
 }
