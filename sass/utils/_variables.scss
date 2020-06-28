@@ -3,16 +3,19 @@ $color-primary:#009688;
 $bgcolor-menu1:#fcdfdb;
 $color-menu1:#3d1319;
 $bgcolor-menu2:#fff5fe;
-$color-menu2:#c67412 #a56799 #6e4ccc;
 $color-menu2A:#c67412;
 $color-menu2B:#a56799;
 $color-menu2C:#6e4ccc;
+$degrade-menu2: linear-gradient(to right, #c67412, #a56799, #6e4ccc);
 $bgcolor-menu3: #edefef;
-$color-menu3: #0228dd #0670f3 #229df9 ;
 $color-menu3A:#0228dd;
 $color-menu3B:#0670f3;
 $color-menu3C:#229df9;
-$color-menu4:#21c42e;
+$degrade-menu3: linear-gradient(to right, #0228dd, #0670f3, #229df9);
+$color-menu4A:#41963C;
+$color-menu4B:#7dc85d;
+$color-menu4C:#b2f478;
+$degrade-menu4:linear-gradient(to right, #41963C, #7dc85d, #b2f478);
 
 $margin-top-menu:180px;
 

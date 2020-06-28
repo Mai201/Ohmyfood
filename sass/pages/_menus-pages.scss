@@ -77,7 +77,9 @@
                     .title-m2 {
                     font-family: 'Redressed-Regular';
                     font-size:26px;
-                    color:$color-menu2; 
+                    background:$degrade-menu2;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
                     }
                 }
             }
@@ -106,7 +108,9 @@
                     .title-m3 {
                     font-family:'DancingScript-VariableFont_wght';
                     font-size:26px;
-                    color:$color-menu3;
+                    background:$degrade-menu3;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
                     }
                 }
             }
@@ -128,12 +132,14 @@
                     {
                     font-family:'Kalam-Regular';
                     font-size: xx-large;
-                    color: $color-menu4;
+                    color: $color-menu4A;
                     }
                     .title-m4 {
                     font-family:'KaushanScript-Regular';
-                    color: $color-menu4;
                     font-size:26px;
+                    background:$degrade-menu4;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
                     }
                 }
             }
@@ -323,7 +329,9 @@
         {
             font-family: 'Redressed-Regular';
             @include typo-titre-ps-m1-m2;
-            color:$color-menu2;
+            background: $degrade-menu2;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             margin-bottom:-15px;
         }    
     }
@@ -351,10 +359,8 @@
             &:hover 
             {
                 background-size: 100% 100%;
-            }
-            
+            }   
         }
-
     }
 
     &__sectioncard-subtitlem2B
@@ -381,9 +387,7 @@
             {
                 background-size: 100% 100%;
             }
-
         }
-
     }
 
     &__sectioncard-subtitlem2C
@@ -410,9 +414,7 @@
             {
                 background-size: 100% 100%;
             }
-
         }
-
     }
     
     &__sectioncard-m3
@@ -442,7 +444,9 @@
         {
             font-family:'DancingScript-VariableFont_wght';
             @include typo-titre-ps-m3-m4;
-            color:$color-menu3;
+            background:$degrade-menu3;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             margin-bottom:-15px;
         }   
     }
@@ -472,9 +476,7 @@
             {
                 background-size: 100% 100%;
             }
-
         }
-
     }
 
     &__sectioncard-subtitlem3B
@@ -500,10 +502,8 @@
             &:hover 
             {
                 background-size: 100% 100%;
-            }
-            
+            }   
         }
-
     }
 
     &__sectioncard-subtitlem3C
@@ -531,9 +531,7 @@
             {
                 background-size: 100% 100%;
             }
-
         }
-
     }
 
     &__sectioncard-m4
@@ -544,7 +542,6 @@
         padding-left: 5%;
         padding-right: 5%;
         font-family:'Kalam-Regular';
-        color: $color-menu4;
 
         p 
         {
@@ -563,7 +560,9 @@
         {
             font-family:'KaushanScript-Regular';
             @include typo-titre-ps-m3-m4;
-            color:$color-menu4;
+            background:$degrade-menu4;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             margin-bottom:-15px;
         }    
     } 
@@ -587,14 +586,12 @@
         
         span
         {
-            background: linear-gradient(to top, $color-menu4 0%, $color-menu4 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            background: linear-gradient(to top, $color-menu4C 0%, $color-menu4C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
             transition: background-size .5s;
             &:hover 
             {
                 background-size: 100% 100%;
             }
-
         }
-
     }
 }
