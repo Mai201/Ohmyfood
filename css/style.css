@@ -189,7 +189,9 @@ a.mLeg--5, a.contact--5 {
 .menus__ligne-menu2 a.navmenu .title-m2 {
   font-family: "Redressed-Regular";
   font-size: 26px;
-  color: #c67412 #a56799 #6e4ccc;
+  background: linear-gradient(to right, #c67412, #a56799, #6e4ccc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menus__ligne-menu3 {
   height: 450px;
@@ -215,7 +217,9 @@ a.mLeg--5, a.contact--5 {
 .menus__ligne-menu3 a.navmenu .title-m3 {
   font-family: "DancingScript-VariableFont_wght";
   font-size: 26px;
-  color: #0228dd #0670f3 #229df9;
+  background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menus__ligne-menu4 {
   height: 450px;
@@ -235,12 +239,14 @@ a.mLeg--5, a.contact--5 {
 .menus__ligne-menu4 a.navmenu p {
   font-family: "Kalam-Regular";
   font-size: xx-large;
-  color: #21c42e;
+  color: #41963C;
 }
 .menus__ligne-menu4 a.navmenu .title-m4 {
   font-family: "KaushanScript-Regular";
-  color: #21c42e;
   font-size: 26px;
+  background: linear-gradient(to right, #41963C, #7dc85d, #b2f478);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .prochainement {
@@ -401,7 +407,9 @@ a.mLeg--5, a.contact--5 {
   font-size: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
-  color: #c67412 #a56799 #6e4ccc;
+  background: linear-gradient(to right, #c67412, #a56799, #6e4ccc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: -15px;
 }
 .menu-ps__sectioncard-subtitlem2A {
@@ -497,7 +505,9 @@ a.mLeg--5, a.contact--5 {
   font-size: 60px;
   margin-top: 60px;
   margin-bottom: 60px;
-  color: #0228dd #0670f3 #229df9;
+  background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: -15px;
 }
 .menu-ps__sectioncard-subtitlem3A {
@@ -576,7 +586,6 @@ a.mLeg--5, a.contact--5 {
   padding-left: 5%;
   padding-right: 5%;
   font-family: "Kalam-Regular";
-  color: #21c42e;
 }
 .menu-ps__sectioncard-m4 p {
   margin-top: 2px;
@@ -593,7 +602,9 @@ a.mLeg--5, a.contact--5 {
   font-size: 60px;
   margin-top: 60px;
   margin-bottom: 60px;
-  color: #21c42e;
+  background: linear-gradient(to right, #41963C, #7dc85d, #b2f478);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: -15px;
 }
 .menu-ps__sectioncard-subtitlesm4 {
@@ -611,7 +622,7 @@ a.mLeg--5, a.contact--5 {
   margin-bottom: 0px;
 }
 .menu-ps__sectioncard-subtitlesm4 span {
-  background: linear-gradient(to top, #21c42e 0%, #21c42e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  background: linear-gradient(to top, #b2f478 0%, #b2f478 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
 .menu-ps__sectioncard-subtitlesm4 span:hover {
