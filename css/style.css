@@ -696,6 +696,10 @@ a.mLeg--5, a.contact--5 {
   .menu-ps__sectioncard-m4 {
     width: 70%;
   }
+
+  .imgsm1, .imgsm2, .imgsm3, .imgsm4 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
