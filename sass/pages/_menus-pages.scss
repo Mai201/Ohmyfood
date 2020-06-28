@@ -198,6 +198,11 @@
         font-weight: bold;
         font-size: 30px;
     }
+
+    h4
+    {
+        font-size:22px;
+    }
     
     &__sectioncard-m1
     {
@@ -212,6 +217,8 @@
         
         p 
         {
+            margin-top: 2px;
+            margin-bottom: 2px;
             text-align: left;
             span
             {
@@ -235,6 +242,11 @@
             color:$color-menu1;
         }
 
+        .title-m1
+        {
+            margin-bottom:-15px;
+        }
+
         .endtitle-m1
         {
             font-size: 25px;
@@ -250,18 +262,29 @@
 
     &__sectioncard-subtitlesm1
     {
-        background: linear-gradient(to top, $color-menu1 0%, $color-menu1 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-        transition: background-size .5s;
         
-        &:hover 
-        {
-            background-size: 100% 100%;
-        }
+        display:flex;
+        width:auto;
+        margin-top:50px;
+        margin-bottom:10px;
+        justify-content: space-between;
 
         .imgsm1
         {
-            font-size: 16px;
-            width: 33%;
+            height:5px;
+            width:35%;
+            padding-top:20px;
+            margin-bottom: 0px;
+        }
+
+        span
+        {
+            background: linear-gradient(to top, $color-menu1 0%, $color-menu1 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            transition: background-size .3s;
+            &:hover 
+            {
+                background-size: 100% 100%;
+            }
         }
     }
 
@@ -277,6 +300,8 @@
 
         p 
         {
+            margin-top: 2px;
+            margin-bottom: 2px;
             text-align: left;
             span
             {
@@ -299,61 +324,95 @@
             font-family: 'Redressed-Regular';
             @include typo-titre-ps-m1-m2;
             color:$color-menu2;
+            margin-bottom:-15px;
         }    
     }
 
     &__sectioncard-subtitlem2A
     {
+        display:flex;
+        width:auto;
+        margin-top:50px;
+        margin-bottom:10px;
+        justify-content: space-between;
         color:$color-menu2A;
-        background: linear-gradient(to top, $color-menu2A 0%, $color-menu2A 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-        transition: background-size .5s;
-          
-        &:hover 
-        {
-            background-size: 100% 100%;
-        }
-
+        
         .imgsm2
         {
-            font-size: 16px;
-            width: 33%;
+            height:16px;
+            width:28%;
+            padding-top:10px;
+            margin-bottom: 0px;
         }
+
+        span {
+            background: linear-gradient(to top, $color-menu2A 0%, $color-menu2A 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            transition: background-size .5s;
+            &:hover 
+            {
+                background-size: 100% 100%;
+            }
+            
+        }
+
     }
 
     &__sectioncard-subtitlem2B
     {
+        display:flex;
+        width:auto;
+        margin-top:50px;
+        margin-bottom:10px;
+        justify-content: space-between;
         color:$color-menu2B;
-        background: linear-gradient(to top, $color-menu2B 0%, $color-menu2B 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-        transition: background-size .5s;
-          
-        &:hover 
-        {
-            background-size: 100% 100%;
-        }
-
+        
         .imgsm2
         {
-            font-size: 16px;
-            width: 33%;
+            height:16px;
+            width:28%;
+            padding-top:10px;
+            margin-bottom: 0px;
         }
+        span
+        {
+            background: linear-gradient(to top, $color-menu2B 0%, $color-menu2B 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            transition: background-size .5s;
+            &:hover 
+            {
+                background-size: 100% 100%;
+            }
+
+        }
+
     }
 
     &__sectioncard-subtitlem2C
     {
+        display:flex;
+        width:auto;
+        margin-top:50px;
+        margin-bottom:10px;
+        justify-content: space-between;
         color:$color-menu2C;
-        background: linear-gradient(to top, $color-menu2C 0%, $color-menu2C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-        transition: background-size .5s;
-          
-        &:hover 
-        {
-            background-size: 100% 100%;
-        }
-
+        
         .imgsm2
         {
-            font-size: 16px;
-            width: 33%;
+            height:16px;
+            width:28%;
+            padding-top:10px;
+            margin-bottom: 0px;
         }
+        span
+        {
+            background: linear-gradient(to top, $color-menu2C 0%, $color-menu2C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            transition: background-size .5s;
+            &:hover 
+            {
+                background-size: 100% 100%;
+            }
+
+        }
+
     }
     
     &__sectioncard-m3
@@ -368,6 +427,8 @@
 
         p 
         {
+            margin-top: 2px;
+            margin-bottom: 2px;
             color:black;
             text-align: left;
             span
@@ -382,61 +443,97 @@
             font-family:'DancingScript-VariableFont_wght';
             @include typo-titre-ps-m3-m4;
             color:$color-menu3;
+            margin-bottom:-15px;
         }   
     }
 
     &__sectioncard-subtitlem3A
     {
+        display:flex;
+        width:auto;
+        margin-top:50px;
+        margin-bottom:10px;
+        justify-content: space-between;
         color:black;
-        background: linear-gradient(to top, $color-menu3A 0%, $color-menu3A 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-        transition: background-size .5s;
-          
-        &:hover 
-        {
-            background-size: 100% 100%;
-        }
-
+        
         .imgsm3
         {
-            font-size: 16px;
-            width: 33%;
+            height:10px;
+            width:30%;
+            padding-top:10px;
+            margin-bottom: 0px;
         }
+        
+        span
+        {
+            background: linear-gradient(to top, $color-menu3A 0%, $color-menu3A 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            transition: background-size .5s;
+            &:hover 
+            {
+                background-size: 100% 100%;
+            }
+
+        }
+
     }
 
     &__sectioncard-subtitlem3B
     {
+        display:flex;
+        width:auto;
+        margin-top:50px;
+        margin-bottom:10px;
+        justify-content: space-between;
         color:black;
-        background: linear-gradient(to top, $color-menu3B 0%, $color-menu3B 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-        transition: background-size .5s;
-          
-        &:hover 
-        {
-            background-size: 100% 100%;
-        }
-
+        
         .imgsm3
         {
-            font-size: 16px;
-            width: 33%;
+            height:10px;
+            width:30%;
+            padding-top:10px;
+            margin-bottom: 0px;
         }
+        span
+        {
+            background: linear-gradient(to top, $color-menu3B 0%, $color-menu3B 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            transition: background-size .5s;
+            &:hover 
+            {
+                background-size: 100% 100%;
+            }
+            
+        }
+
     }
 
     &__sectioncard-subtitlem3C
     {
+        display:flex;
+        width:auto;
+        margin-top:50px;
+        margin-bottom:10px;
+        justify-content: space-between;
         color:black;
-        background: linear-gradient(to top, $color-menu3C 0%, $color-menu3C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-        transition: background-size .5s;
-          
-        &:hover 
-        {
-            background-size: 100% 100%;
-        }
-
+        
         .imgsm3
         {
-            font-size: 16px;
-            width: 33%;
+            height:10px;
+            width:30%;
+            padding-top:10px;
+            margin-bottom: 0px;
         }
+        
+        span
+        {
+            background: linear-gradient(to top, $color-menu3C 0%, $color-menu3C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            transition: background-size .5s;
+            &:hover 
+            {
+                background-size: 100% 100%;
+            }
+
+        }
+
     }
 
     &__sectioncard-m4
@@ -451,6 +548,8 @@
 
         p 
         {
+            margin-top: 2px;
+            margin-bottom: 2px;
             color:black;
             text-align: left;
             span
@@ -465,24 +564,37 @@
             font-family:'KaushanScript-Regular';
             @include typo-titre-ps-m3-m4;
             color:$color-menu4;
+            margin-bottom:-15px;
         }    
     } 
 
     &__sectioncard-subtitlesm4
     {
+        display:flex;
+        width:auto;
+        margin-top:50px;
+        margin-bottom:10px;
+        justify-content: space-between;
         color:black;
-        background: linear-gradient(to top, $color-menu4 0%, $color-menu4 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-        transition: background-size .5s;
-          
-        &:hover 
-        {
-            background-size: 100% 100%;
-        }
-
+        
         .imgsm4
         {
-            font-size: 16px;
-            width: 33%;
+            height:10px;
+            width:34%;
+            padding-top:20px;
+            margin-bottom: 0px;
         }
+        
+        span
+        {
+            background: linear-gradient(to top, $color-menu4 0%, $color-menu4 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            transition: background-size .5s;
+            &:hover 
+            {
+                background-size: 100% 100%;
+            }
+
+        }
+
     }
 }

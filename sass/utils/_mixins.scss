@@ -41,3 +41,9 @@
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
+/* pages secondaires pour petits écrans*/ 
+@mixin small-typomenu-ps
+{
+    width:70%;
+}
