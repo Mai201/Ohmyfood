@@ -45,7 +45,6 @@ body {
 /* page principale */
 /* page principale pour petits écrans */
 /* page secondaire */
-/*pages secondaires pour petits écrans !! à modifier !! */
 header {
   width: 100%;
   display: flex;
@@ -119,6 +118,7 @@ a.mLeg--5, a.contact--5 {
   }
 }
 
+/* page principale */
 .menus {
   display: flex;
   width: 1024px;
@@ -276,6 +276,7 @@ a.mLeg--5, a.contact--5 {
 
 /* pages secondaires */
 .menu-ps {
+  width: 1024px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -289,7 +290,7 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m1 {
   height: 100%;
-  width: 550px;
+  width: 55%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin-left: auto;
@@ -346,12 +347,14 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m2 {
   height: 100%;
-  width: 550px;
+  width: 55%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
   padding-left: 5%;
   padding-right: 5%;
   font-family: "DMSerifDisplay-Regular";
@@ -418,12 +421,14 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m3 {
   height: 100%;
-  width: 550px;
+  width: 55%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
   padding-left: 5%;
   padding-right: 5%;
   font-family: "Kalam-Regular";
@@ -482,12 +487,14 @@ a.mLeg--5, a.contact--5 {
 }
 .menu-ps__sectioncard-m4 {
   height: 100%;
-  width: 550px;
+  width: 55%;
   text-align: center;
   box-shadow: 0 0 10px 0 lightgrey;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
   padding-left: 5%;
   padding-right: 5%;
   font-family: "Kalam-Regular";
@@ -523,6 +530,10 @@ a.mLeg--5, a.contact--5 {
 
 @media all and (max-width: 1024px) {
   .menus {
+    width: auto;
+  }
+
+  .menu-ps {
     width: auto;
   }
 }

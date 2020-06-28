@@ -1,7 +1,191 @@
+/* page principale */ 
+
+.menus
+    {
+    display: flex;
+    width:1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    flex-direction: column;
+    
+    
+        &__ligne
+        {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 50px;
+        
+            &-menu1
+            {
+                @include typomenu-pp;
+                background-color:$bgcolor-menu1;
+                a.navmenu
+                {
+                    display: inline-block;
+                    text-decoration:none;
+                    margin-top: 115px;
+                    transition: 500ms ease-in-out;
+                    
+                    &:hover
+                    {
+                        transform: scale(1.15);
+                    }
+                    
+                    p {
+                        font-size: xx-large;
+                        margin-top: 10px;
+                        font-family: 'Sriracha-Regular';
+                        color: $color-menu1;
+                    }
+                    
+                    .img1
+                    {
+                        height:70px;
+                    }
+                    .title-m1{
+                    font-family:'Pacifico-Regular';
+                    font-size:26px;
+                    color:$color-menu1;
+                    }
+                }       
+            }
+
+            &-menu2
+            {
+                @include typomenu-pp;
+                background-color: $bgcolor-menu2;
+                a.navmenu
+                {
+                    display: inline-block;
+                    text-decoration:none;
+                    margin-top: $margin-top-menu;
+                    transition: 500ms ease-in-out;
+                
+                    &:hover
+                    {
+                    transform: scale(1.15);
+                    }
+                    p 
+                    {
+                    font-size: xx-large;
+                    font-family: 'DMSerifDisplay-Regular';
+                    color:$color-menu2A;
+                    }
+                    .title-m2 {
+                    font-family: 'Redressed-Regular';
+                    font-size:26px;
+                    color:$color-menu2; 
+                    }
+                }
+            }
+
+            &-menu3 
+            {
+                @include typomenu-pp;
+                background-color: $bgcolor-menu3;
+                a.navmenu
+                {
+                    display: inline-block;
+                    text-decoration:none;
+                    margin-top: $margin-top-menu;
+                    transition: 500ms ease-in-out;
+                
+                    &:hover
+                    {
+                    transform: scale(1.15);
+                    }
+                    p 
+                    {
+                    font-family:'Kalam-Regular';
+                    font-size: xx-large;
+                    color:$color-menu3C;
+                    }
+                    .title-m3 {
+                    font-family:'DancingScript-VariableFont_wght';
+                    font-size:26px;
+                    color:$color-menu3;
+                    }
+                }
+            }
+            &-menu4 
+            {
+                @include typomenu-pp;
+                a.navmenu
+                {
+                    display: inline-block;
+                    text-decoration:none;
+                    margin-top: $margin-top-menu;
+                    transition: 500ms ease-in-out;
+                
+                    &:hover
+                    {
+                    transform: scale(1.15);
+                    }
+                    p 
+                    {
+                    font-family:'Kalam-Regular';
+                    font-size: xx-large;
+                    color: $color-menu4;
+                    }
+                    .title-m4 {
+                    font-family:'KaushanScript-Regular';
+                    color: $color-menu4;
+                    font-size:26px;
+                    }
+                }
+            }
+        }
+    }
+
+.prochainement
+{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    .btn 
+    {
+    background-color: $color-primary;
+    width: 220px;
+    border-radius: 10px;
+        &-load:after 
+        {
+            overflow: hidden;
+            display: inline-block;
+            vertical-align: bottom;    
+            animation: ellipsis steps(4,end) 900ms infinite;
+            content : "\002026";
+            width: 0px;
+        }
+      
+        @keyframes ellipsis 
+        {
+            to {
+            width: 30px;    
+            }
+        }
+    }
+
+    h2 
+    {
+        display:flex;
+        text-align: center;
+        padding-left: 12px;
+        padding-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
 /* pages secondaires */ 
 
 .menu-ps
 {
+    width:1024px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -84,6 +268,8 @@
     &__sectioncard-m2
     {
         @include typomenu-ps;
+        display:flex;
+        flex-direction: column;
         padding-left: 5%;
         padding-right: 5%;
         font-family:'DMSerifDisplay-Regular';
@@ -173,6 +359,8 @@
     &__sectioncard-m3
     {
         @include typomenu-ps;
+        display:flex;
+        flex-direction: column;
         padding-left: 5%;
         padding-right: 5%;
         font-family:'Kalam-Regular';
@@ -254,6 +442,8 @@
     &__sectioncard-m4
     {
         @include typomenu-ps;
+        display:flex;
+        flex-direction: column;
         padding-left: 5%;
         padding-right: 5%;
         font-family:'Kalam-Regular';
@@ -296,7 +486,3 @@
         }
     }
 }
-
-
-
-
