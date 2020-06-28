@@ -213,6 +213,7 @@
     &__sectioncard-m1
     {
         @include typomenu-ps;
+        width: 55%;
         display:flex;
         flex-direction: column;
         padding-left: 5%;
@@ -297,10 +298,11 @@
     &__sectioncard-m2
     {
         @include typomenu-ps;
+        width: 45%;
         display:flex;
         flex-direction: column;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
         font-family:'DMSerifDisplay-Regular';
         background-color: $bgcolor-menu2;
 
@@ -347,8 +349,10 @@
         
         .imgsm2
         {
-            height:16px;
-            width:28%;
+            height:12px;
+            width:45%;
+            margin-left: -90px;
+            margin-right: -90px;
             padding-top:10px;
             margin-bottom: 0px;
         }
@@ -374,8 +378,10 @@
         
         .imgsm2
         {
-            height:16px;
-            width:28%;
+            height:12px;
+            width:45%;
+            margin-left: -90px;
+            margin-right: -90px;
             padding-top:10px;
             margin-bottom: 0px;
         }
@@ -401,8 +407,10 @@
         
         .imgsm2
         {
-            height:16px;
-            width:28%;
+            height:12px;
+            width:45%;
+            margin-left: -90px;
+            margin-right: -90px;
             padding-top:10px;
             margin-bottom: 0px;
         }
@@ -420,10 +428,11 @@
     &__sectioncard-m3
     {
         @include typomenu-ps;
+        width: 45%;
         display:flex;
         flex-direction: column;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
         font-family:'Kalam-Regular';
         background-color: $bgcolor-menu3;
 
@@ -463,7 +472,9 @@
         .imgsm3
         {
             height:10px;
-            width:30%;
+            width:45%;
+            margin-left: -80px;
+            margin-right: -80px;
             padding-top:10px;
             margin-bottom: 0px;
         }
@@ -491,7 +502,9 @@
         .imgsm3
         {
             height:10px;
-            width:30%;
+            width:45%;
+            margin-left: -80px;
+            margin-right: -80px;
             padding-top:10px;
             margin-bottom: 0px;
         }
@@ -518,7 +531,9 @@
         .imgsm3
         {
             height:10px;
-            width:30%;
+            width:45%;
+            margin-left: -80px;
+            margin-right: -80px;
             padding-top:10px;
             margin-bottom: 0px;
         }
@@ -537,10 +552,11 @@
     &__sectioncard-m4
     {
         @include typomenu-ps;
+        width: 45%;
         display:flex;
         flex-direction: column;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
         font-family:'Kalam-Regular';
 
         p 
@@ -579,8 +595,10 @@
         .imgsm4
         {
             height:10px;
-            width:34%;
-            padding-top:20px;
+            width:50%;
+            margin-left: -80px;
+            margin-right: -80px;
+            padding-top:10px;
             margin-bottom: 0px;
         }
         
