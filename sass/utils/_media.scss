@@ -36,4 +36,24 @@
             @include small-typomenu;
         }
     }
+
+    .menu-ps__sectioncard-m1
+    {
+        @include small-typomenu-ps;
+    }
+
+    .menu-ps__sectioncard-m2
+    {
+        @include small-typomenu-ps;
+    }
+
+    .menu-ps__sectioncard-m3
+    {
+        @include small-typomenu-ps;
+    }
+
+    .menu-ps__sectioncard-m4
+    {
+        @include small-typomenu-ps;
+    }
 }
