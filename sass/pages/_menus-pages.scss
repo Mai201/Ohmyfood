@@ -78,8 +78,9 @@
                     font-family: 'Redressed-Regular';
                     font-size:26px;
                     background:$degrade-menu2;
+                    background-clip: text;
                     -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
+                    color: transparent;
                     }
                 }
             }
@@ -109,8 +110,9 @@
                     font-family:'DancingScript-VariableFont_wght';
                     font-size:26px;
                     background:$degrade-menu3;
+                    background-clip: text;
                     -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
+                    color: transparent;
                     }
                 }
             }
@@ -138,8 +140,9 @@
                     font-family:'KaushanScript-Regular';
                     font-size:26px;
                     background:$degrade-menu4;
+                    background-clip: text;
                     -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
+                    color: transparent;
                     }
                 }
             }
@@ -154,10 +157,10 @@
     
     .btn 
     {
-    background-color: $color-primary;
-    width: 220px;
-    border-radius: 10px;
-    display:flex;
+        background-color: $color-primary;
+        width: 220px;
+        border-radius: 10px;
+        display:flex;
         text-align: center;
         padding-left: 12px;
         padding-right: 5px;
@@ -166,17 +169,17 @@
 
         &-load:after 
         {
-            font-size:24px;
-            margin-top: 5px;
+            font-size:26px;
+            margin-top: 3px;
             overflow: hidden;
             display: inline-block;
             vertical-align: bottom;    
-            animation: ellipsis steps(4,end) 900ms infinite;
+            animation: ellipsis steps(4,end) 1000ms infinite;
             content : "\002026";
             width: 2px;
         }
       
-        @keyframes ellipsis 
+        @keyframes ellipsis
         {
             to {
             width: 30px;    
@@ -341,8 +344,9 @@
             font-family: 'Redressed-Regular';
             @include typo-titre-ps-m1-m2;
             background: $degrade-menu2;
+            background-clip: text;
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: transparent;
             margin-bottom:-15px;
         }    
     }
@@ -466,8 +470,9 @@
             font-family:'DancingScript-VariableFont_wght';
             @include typo-titre-ps-m3-m4;
             background:$degrade-menu3;
+            background-clip: text;
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: transparent;
             margin-bottom:-15px;
         }   
     }
@@ -592,8 +597,9 @@
             font-family:'KaushanScript-Regular';
             @include typo-titre-ps-m3-m4;
             background:$degrade-menu4;
+            background-clip: text;
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: transparent;
             margin-bottom:-15px;
         }    
     } 
