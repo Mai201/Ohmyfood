@@ -298,11 +298,11 @@
     &__sectioncard-m2
     {
         @include typomenu-ps;
-        width: 45%;
+        width: 50%;
         display:flex;
         flex-direction: column;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 7%;
+        padding-right: 7%;
         font-family:'DMSerifDisplay-Regular';
         background-color: $bgcolor-menu2;
 
@@ -350,14 +350,15 @@
         .imgsm2
         {
             height:12px;
-            width:45%;
-            margin-left: -90px;
-            margin-right: -90px;
-            padding-top:10px;
+            width:49%;
+            margin-left: -70px;
+            margin-right: -70px;
+            padding-top:7px;
             margin-bottom: 0px;
         }
 
         span {
+            font-size: 17px;
             background: linear-gradient(to top, $color-menu2A 0%, $color-menu2A 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
             transition: background-size .5s;
             &:hover 
@@ -379,14 +380,15 @@
         .imgsm2
         {
             height:12px;
-            width:45%;
-            margin-left: -90px;
-            margin-right: -90px;
-            padding-top:10px;
+            width:49%;
+            margin-left: -70px;
+            margin-right: -70px;
+            padding-top:7px;
             margin-bottom: 0px;
         }
         span
         {
+            font-size: 17px;
             background: linear-gradient(to top, $color-menu2B 0%, $color-menu2B 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
             transition: background-size .5s;
             &:hover 
@@ -408,14 +410,15 @@
         .imgsm2
         {
             height:12px;
-            width:45%;
-            margin-left: -90px;
-            margin-right: -90px;
-            padding-top:10px;
+            width:49%;
+            margin-left: -70px;
+            margin-right: -70px;
+            padding-top:7px;
             margin-bottom: 0px;
         }
         span
         {
+            font-size: 17px;
             background: linear-gradient(to top, $color-menu2C 0%, $color-menu2C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
             transition: background-size .5s;
             &:hover 
@@ -428,11 +431,11 @@
     &__sectioncard-m3
     {
         @include typomenu-ps;
-        width: 45%;
+        width: 50%;
         display:flex;
         flex-direction: column;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 7%;
+        padding-right: 7%;
         font-family:'Kalam-Regular';
         background-color: $bgcolor-menu3;
 
@@ -472,15 +475,16 @@
         .imgsm3
         {
             height:10px;
-            width:45%;
-            margin-left: -80px;
-            margin-right: -80px;
+            width:40%;
+            margin-left: -50px;
+            margin-right: -50px;
             padding-top:10px;
             margin-bottom: 0px;
         }
         
         span
         {
+            font-weight: normal;
             background: linear-gradient(to top, $color-menu3A 0%, $color-menu3A 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
             transition: background-size .5s;
             &:hover 
@@ -502,14 +506,15 @@
         .imgsm3
         {
             height:10px;
-            width:45%;
-            margin-left: -80px;
-            margin-right: -80px;
+            width:40%;
+            margin-left: -50px;
+            margin-right: -50px;
             padding-top:10px;
             margin-bottom: 0px;
         }
         span
         {
+            font-weight: normal;
             background: linear-gradient(to top, $color-menu3B 0%, $color-menu3B 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
             transition: background-size .5s;
             &:hover 
@@ -531,15 +536,16 @@
         .imgsm3
         {
             height:10px;
-            width:45%;
-            margin-left: -80px;
-            margin-right: -80px;
+            width:40%;
+            margin-left: -50px;
+            margin-right: -50px;
             padding-top:10px;
             margin-bottom: 0px;
         }
         
         span
         {
+            font-weight: normal;
             background: linear-gradient(to top, $color-menu3C 0%, $color-menu3C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
             transition: background-size .5s;
             &:hover 
@@ -552,11 +558,11 @@
     &__sectioncard-m4
     {
         @include typomenu-ps;
-        width: 45%;
+        width: 50%;
         display:flex;
         flex-direction: column;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 7%;
+        padding-right: 7%;
         font-family:'Kalam-Regular';
 
         p 
@@ -595,15 +601,16 @@
         .imgsm4
         {
             height:10px;
-            width:50%;
-            margin-left: -80px;
-            margin-right: -80px;
+            width:46%;
+            margin-left: -50px;
+            margin-right: -50px;
             padding-top:10px;
             margin-bottom: 0px;
         }
         
         span
         {
+            font-weight: normal;
             background: linear-gradient(to top, $color-menu4C 0%, $color-menu4C 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
             transition: background-size .5s;
             &:hover 
