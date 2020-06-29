@@ -191,7 +191,6 @@ a.mLeg--5, a.contact--5 {
   font-family: "Redressed-Regular";
   font-size: 26px;
   background: linear-gradient(to right, #c67412, #a56799, #6e4ccc);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -220,7 +219,6 @@ a.mLeg--5, a.contact--5 {
   font-family: "DancingScript-VariableFont_wght";
   font-size: 26px;
   background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -248,7 +246,6 @@ a.mLeg--5, a.contact--5 {
   font-family: "KaushanScript-Regular";
   font-size: 26px;
   background: linear-gradient(to right, #41963C, #7dc85d, #b2f478);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -420,7 +417,6 @@ a.mLeg--5, a.contact--5 {
   margin-top: 60px;
   margin-bottom: 60px;
   background: linear-gradient(to right, #c67412, #a56799, #6e4ccc);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   margin-bottom: -15px;
@@ -528,7 +524,6 @@ a.mLeg--5, a.contact--5 {
   margin-top: 60px;
   margin-bottom: 60px;
   background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   margin-bottom: -15px;
@@ -635,7 +630,6 @@ a.mLeg--5, a.contact--5 {
   margin-top: 60px;
   margin-bottom: 60px;
   background: linear-gradient(to right, #41963C, #7dc85d, #b2f478);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   margin-bottom: -15px;
