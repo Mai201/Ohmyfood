@@ -258,14 +258,22 @@ a.mLeg--5, a.contact--5 {
   background-color: #009688;
   width: 220px;
   border-radius: 10px;
+  display: flex;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .prochainement .btn-load:after {
+  font-size: 24px;
+  margin-top: 5px;
   overflow: hidden;
   display: inline-block;
   vertical-align: bottom;
   animation: ellipsis steps(4, end) 900ms infinite;
   content: "…";
-  width: 0px;
+  width: 2px;
 }
 @keyframes ellipsis {
   to {
