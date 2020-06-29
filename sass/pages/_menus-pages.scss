@@ -78,7 +78,6 @@
                     font-family: 'Redressed-Regular';
                     font-size:26px;
                     background:$degrade-menu2;
-                    background-clip: text;
                     -webkit-background-clip: text;
                     color: transparent;
                     }
@@ -110,7 +109,6 @@
                     font-family:'DancingScript-VariableFont_wght';
                     font-size:26px;
                     background:$degrade-menu3;
-                    background-clip: text;
                     -webkit-background-clip: text;
                     color: transparent;
                     }
@@ -140,7 +138,6 @@
                     font-family:'KaushanScript-Regular';
                     font-size:26px;
                     background:$degrade-menu4;
-                    background-clip: text;
                     -webkit-background-clip: text;
                     color: transparent;
                     }
@@ -344,7 +341,6 @@
             font-family: 'Redressed-Regular';
             @include typo-titre-ps-m1-m2;
             background: $degrade-menu2;
-            background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
             margin-bottom:-15px;
@@ -470,7 +466,6 @@
             font-family:'DancingScript-VariableFont_wght';
             @include typo-titre-ps-m3-m4;
             background:$degrade-menu3;
-            background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
             margin-bottom:-15px;
@@ -597,7 +592,6 @@
             font-family:'KaushanScript-Regular';
             @include typo-titre-ps-m3-m4;
             background:$degrade-menu4;
-            background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
             margin-bottom:-15px;
