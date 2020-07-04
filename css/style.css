@@ -266,7 +266,7 @@ a.mLeg--5, a.contact--5 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.prochainement .btn-load:after {
+.prochainement .btn-loading:after {
   font-size: 26px;
   margin-top: 3px;
   overflow: hidden;
