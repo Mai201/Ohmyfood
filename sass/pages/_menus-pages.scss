@@ -1,7 +1,7 @@
 /* page principale */ 
 
 .menus
-    {
+{
     display: flex;
     width:1024px;
     margin-left: auto;
@@ -11,140 +11,159 @@
     flex-direction: column;
     
     
-        &__ligne
-        {
+    &__ligne
+    {
         display:flex;
         flex-direction: row;
         justify-content: space-around;
         padding-bottom: 50px;
         
-            &-menu1
+        &-menu1
+        {
+            @include typomenu-pp;
+            background-color:$bgcolor-menu1;
+            a.navmenu
             {
-                @include typomenu-pp;
-                background-color:$bgcolor-menu1;
-                a.navmenu
+                display: inline-block;
+                text-decoration:none;
+                margin-top: 115px;
+                opacity:1;
+                transition: 500ms ease-in-out;
+                    
+                &:hover
                 {
-                    display: inline-block;
-                    text-decoration:none;
-                    margin-top: 115px;
-                    transition: 500ms ease-in-out;
+                    transform: scale(1.15);
+                    opacity: 0.7;
+                }
                     
-                    &:hover
-                    {
-                        transform: scale(1.15);
-                    }
+                p 
+                {
+                    font-size: xx-large;
+                    margin-top: 10px;
+                    font-family: 'Sriracha-Regular';
+                    color: $color-menu1;
+                }
                     
-                    p {
-                        font-size: xx-large;
-                        margin-top: 10px;
-                        font-family: 'Sriracha-Regular';
-                        color: $color-menu1;
-                    }
-                    
-                    .img1
-                    {
-                        height:70px;
-                    }
-                    .title-m1{
+                .img1
+                {
+                    height:70px;
+                }
+
+                .title-m1
+                {
                     font-family:'Pacifico-Regular';
                     font-size:26px;
                     color:$color-menu1;
-                    }
-                }       
-            }
+                }
+            }       
+        }
 
-            &-menu2
+        &-menu2
+        {
+            @include typomenu-pp;
+            background-color: $bgcolor-menu2;
+            a.navmenu
             {
-                @include typomenu-pp;
-                background-color: $bgcolor-menu2;
-                a.navmenu
-                {
-                    display: inline-block;
-                    text-decoration:none;
-                    margin-top: $margin-top-menu;
-                    transition: 500ms ease-in-out;
+                display: inline-block;
+                text-decoration:none;
+                margin-top: $margin-top-menu;
+                opacity:1;
+                transition: 500ms ease-in-out;
                 
-                    &:hover
-                    {
+                &:hover
+                {
                     transform: scale(1.15);
-                    }
-                    p 
-                    {
+                    opacity:0.7;
+                }
+                p 
+                {
                     font-size: xx-large;
                     font-family: 'DMSerifDisplay-Regular';
                     color:$color-menu2A;
-                    }
-                    .title-m2 {
+                }
+
+                .title-m2 
+                {
                     font-family: 'Redressed-Regular';
                     font-size:26px;
                     background:$degrade-menu2;
                     -webkit-background-clip: text;
                     color: transparent;
-                    }
                 }
             }
+        }
 
-            &-menu3 
+        &-menu3 
+        {
+            @include typomenu-pp;
+            background-color: $bgcolor-menu3;
+            a.navmenu
             {
-                @include typomenu-pp;
-                background-color: $bgcolor-menu3;
-                a.navmenu
-                {
-                    display: inline-block;
-                    text-decoration:none;
-                    margin-top: $margin-top-menu;
-                    transition: 500ms ease-in-out;
+                display: inline-block;
+                text-decoration:none;
+                margin-top: $margin-top-menu;
+                opacity:1;
+                transition: 500ms ease-in-out;
                 
-                    &:hover
-                    {
+                &:hover
+                {
                     transform: scale(1.15);
-                    }
-                    p 
-                    {
+                    opacity:0.7;
+                }
+                p 
+                {
                     font-family:'Kalam-Regular';
                     font-size: xx-large;
                     color:$color-menu3C;
-                    }
-                    .title-m3 {
+                }
+
+                .title-m3 
+                {
                     font-family:'DancingScript-VariableFont_wght';
                     font-size:26px;
                     background:$degrade-menu3;
                     -webkit-background-clip: text;
                     color: transparent;
-                    }
                 }
             }
-            &-menu4 
+        }
+
+        &-menu4 
+        {
+            @include typomenu-pp;
+            a.navmenu
             {
-                @include typomenu-pp;
-                a.navmenu
-                {
-                    display: inline-block;
-                    text-decoration:none;
-                    margin-top: $margin-top-menu;
-                    transition: 500ms ease-in-out;
+                display: inline-block;
+                text-decoration:none;
+                margin-top: $margin-top-menu;
+                opacity:1;
+                transition: 500ms ease-in-out;
                 
-                    &:hover
-                    {
+                &:hover
+                {
                     transform: scale(1.15);
-                    }
-                    p 
-                    {
+                    opacity:0.7;
+                }
+                
+                p 
+                {
                     font-family:'Kalam-Regular';
                     font-size: xx-large;
                     color: $color-menu4A;
-                    }
-                    .title-m4 {
+                }
+                    
+                .title-m4 
+                {
                     font-family:'KaushanScript-Regular';
                     font-size:26px;
                     background:$degrade-menu4;
                     -webkit-background-clip: text;
                     color: transparent;
-                    }
                 }
             }
         }
     }
+}
 
 .prochainement
 {
